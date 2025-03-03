@@ -190,9 +190,9 @@ public class ScrimView extends View implements Insettable, OnChangeListener,
     public void setProgress(float progress) {
         if (mProgress != progress) {
             mProgress = progress;
-            updateColors();
-            updateDragHandleAlpha();
-            invalidate();
+//            updateColors();
+//            updateDragHandleAlpha();
+//            invalidate();
         }
     }
 
