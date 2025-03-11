@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3;
+package com.android.launcher4;
 
 import static android.view.MotionEvent.ACTION_DOWN;
 
@@ -25,8 +25,8 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.android.launcher3.CellLayout.ContainerType;
-import com.android.launcher3.widget.LauncherAppWidgetHostView;
+import com.android.launcher4.CellLayout.ContainerType;
+import com.android.launcher4.widget.LauncherAppWidgetHostView;
 
 public class ShortcutAndWidgetContainer extends ViewGroup {
     static final String TAG = "ShortcutAndWidgetContainer";

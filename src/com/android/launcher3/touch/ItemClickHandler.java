@@ -13,15 +13,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.android.launcher3.touch;
+package com.android.launcher4.touch;
 
-import static com.android.launcher3.ItemInfoWithIcon.FLAG_DISABLED_BY_PUBLISHER;
-import static com.android.launcher3.ItemInfoWithIcon.FLAG_DISABLED_LOCKED_USER;
-import static com.android.launcher3.ItemInfoWithIcon.FLAG_DISABLED_QUIET_USER;
-import static com.android.launcher3.ItemInfoWithIcon.FLAG_DISABLED_SAFEMODE;
-import static com.android.launcher3.ItemInfoWithIcon.FLAG_DISABLED_SUSPENDED;
-import static com.android.launcher3.Launcher.REQUEST_BIND_PENDING_APPWIDGET;
-import static com.android.launcher3.Launcher.REQUEST_RECONFIGURE_APPWIDGET;
+import static com.android.launcher4.ItemInfoWithIcon.FLAG_DISABLED_BY_PUBLISHER;
+import static com.android.launcher4.ItemInfoWithIcon.FLAG_DISABLED_LOCKED_USER;
+import static com.android.launcher4.ItemInfoWithIcon.FLAG_DISABLED_QUIET_USER;
+import static com.android.launcher4.ItemInfoWithIcon.FLAG_DISABLED_SAFEMODE;
+import static com.android.launcher4.ItemInfoWithIcon.FLAG_DISABLED_SUSPENDED;
+import static com.android.launcher4.Launcher.REQUEST_BIND_PENDING_APPWIDGET;
+import static com.android.launcher4.Launcher.REQUEST_RECONFIGURE_APPWIDGET;
 
 import android.app.AlertDialog;
 import android.content.Intent;
@@ -31,22 +31,22 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Toast;
 
-import com.android.launcher3.AppInfo;
-import com.android.launcher3.BubbleTextView;
-import com.android.launcher3.FolderInfo;
-import com.android.launcher3.ItemInfo;
-import com.android.launcher3.Launcher;
-import com.android.launcher3.LauncherAppWidgetInfo;
-import com.android.launcher3.LauncherAppWidgetProviderInfo;
-import com.android.launcher3.PromiseAppInfo;
-import com.android.launcher3.R;
-import com.android.launcher3.ShortcutInfo;
-import com.android.launcher3.compat.AppWidgetManagerCompat;
-import com.android.launcher3.folder.Folder;
-import com.android.launcher3.folder.FolderIcon;
-import com.android.launcher3.util.PackageManagerHelper;
-import com.android.launcher3.widget.PendingAppWidgetHostView;
-import com.android.launcher3.widget.WidgetAddFlowHandler;
+import com.android.launcher4.AppInfo;
+import com.android.launcher4.BubbleTextView;
+import com.android.launcher4.FolderInfo;
+import com.android.launcher4.ItemInfo;
+import com.android.launcher4.Launcher;
+import com.android.launcher4.LauncherAppWidgetInfo;
+import com.android.launcher4.LauncherAppWidgetProviderInfo;
+import com.android.launcher4.PromiseAppInfo;
+import com.android.launcher4.R;
+import com.android.launcher4.ShortcutInfo;
+import com.android.launcher4.compat.AppWidgetManagerCompat;
+import com.android.launcher4.folder.Folder;
+import com.android.launcher4.folder.FolderIcon;
+import com.android.launcher4.util.PackageManagerHelper;
+import com.android.launcher4.widget.PendingAppWidgetHostView;
+import com.android.launcher4.widget.WidgetAddFlowHandler;
 
 /**
  * Class for handling clicks on workspace and all-apps items

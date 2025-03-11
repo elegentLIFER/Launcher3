@@ -13,13 +13,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.android.launcher3.folder;
+package com.android.launcher4.folder;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
 import android.animation.ValueAnimator;
 
-import com.android.launcher3.LauncherAnimUtils;
+import com.android.launcher4.LauncherAnimUtils;
 
 /**
  * Animates a Folder preview item.

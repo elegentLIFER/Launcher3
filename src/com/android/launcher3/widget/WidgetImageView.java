@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.widget;
+package com.android.launcher4.widget;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -26,8 +26,8 @@ import android.graphics.drawable.Drawable;
 import android.util.AttributeSet;
 import android.view.View;
 
-import com.android.launcher3.R;
-import com.android.launcher3.Utilities;
+import com.android.launcher4.R;
+import com.android.launcher4.Utilities;
 
 /**
  * View that draws a bitmap horizontally centered. If the image width is greater than the view

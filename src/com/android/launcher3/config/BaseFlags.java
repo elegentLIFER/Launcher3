@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.config;
+package com.android.launcher4.config;
 
 /**
  * Defines a set of flags used to control various launcher behaviors.
@@ -29,7 +29,7 @@ abstract class BaseFlags {
     BaseFlags() {}
 
     public static final boolean IS_DOGFOOD_BUILD = false;
-    public static final String AUTHORITY = "com.android.launcher3.settings".intern();
+    public static final String AUTHORITY = "com.android.launcher4.settings".intern();
 
     // When enabled allows to use any point on the fast scrollbar to start dragging.
     public static final boolean LAUNCHER3_DIRECT_SCROLL = true;

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.model;
+package com.android.launcher4.model;
 
 import android.content.ContentProviderOperation;
 import android.content.ContentResolver;
@@ -25,20 +25,20 @@ import android.os.Handler;
 import android.os.Looper;
 import android.util.Log;
 
-import com.android.launcher3.FolderInfo;
-import com.android.launcher3.ItemInfo;
-import com.android.launcher3.LauncherAppState;
-import com.android.launcher3.LauncherModel;
-import com.android.launcher3.LauncherModel.Callbacks;
-import com.android.launcher3.LauncherProvider;
-import com.android.launcher3.LauncherSettings;
-import com.android.launcher3.LauncherSettings.Favorites;
-import com.android.launcher3.LauncherSettings.Settings;
-import com.android.launcher3.ShortcutInfo;
-import com.android.launcher3.logging.FileLog;
-import com.android.launcher3.util.ContentWriter;
-import com.android.launcher3.util.ItemInfoMatcher;
-import com.android.launcher3.util.LooperExecutor;
+import com.android.launcher4.FolderInfo;
+import com.android.launcher4.ItemInfo;
+import com.android.launcher4.LauncherAppState;
+import com.android.launcher4.LauncherModel;
+import com.android.launcher4.LauncherModel.Callbacks;
+import com.android.launcher4.LauncherProvider;
+import com.android.launcher4.LauncherSettings;
+import com.android.launcher4.LauncherSettings.Favorites;
+import com.android.launcher4.LauncherSettings.Settings;
+import com.android.launcher4.ShortcutInfo;
+import com.android.launcher4.logging.FileLog;
+import com.android.launcher4.util.ContentWriter;
+import com.android.launcher4.util.ItemInfoMatcher;
+import com.android.launcher4.util.LooperExecutor;
 
 import java.util.ArrayList;
 import java.util.Arrays;

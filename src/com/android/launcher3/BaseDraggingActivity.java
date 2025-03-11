@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3;
+package com.android.launcher4;
 
 import android.app.ActivityOptions;
 import android.content.ActivityNotFoundException;
@@ -32,13 +32,13 @@ import android.view.Surface;
 import android.view.View;
 import android.widget.Toast;
 
-import com.android.launcher3.LauncherSettings.Favorites;
-import com.android.launcher3.badge.BadgeInfo;
-import com.android.launcher3.compat.LauncherAppsCompat;
-import com.android.launcher3.uioverrides.DisplayRotationListener;
-import com.android.launcher3.uioverrides.WallpaperColorInfo;
-import com.android.launcher3.shortcuts.DeepShortcutManager;
-import com.android.launcher3.views.BaseDragLayer;
+import com.android.launcher4.LauncherSettings.Favorites;
+import com.android.launcher4.badge.BadgeInfo;
+import com.android.launcher4.compat.LauncherAppsCompat;
+import com.android.launcher4.uioverrides.DisplayRotationListener;
+import com.android.launcher4.uioverrides.WallpaperColorInfo;
+import com.android.launcher4.shortcuts.DeepShortcutManager;
+import com.android.launcher4.views.BaseDragLayer;
 
 /**
  * Extension of BaseActivity allowing support for drag-n-drop
@@ -50,7 +50,7 @@ public abstract class BaseDraggingActivity extends BaseActivity
 
     // The Intent extra that defines whether to ignore the launch animation
     public static final String INTENT_EXTRA_IGNORE_LAUNCH_ANIMATION =
-            "com.android.launcher3.intent.extra.shortcut.INGORE_LAUNCH_ANIMATION";
+            "com.android.launcher4.intent.extra.shortcut.INGORE_LAUNCH_ANIMATION";
 
     // When starting an action mode, setting this tag will cause the action mode to be cancelled
     // automatically when user interacts with the launcher.

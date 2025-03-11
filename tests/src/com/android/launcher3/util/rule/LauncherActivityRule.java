@@ -13,7 +13,7 @@
  * License for the specific language governing permissions and limitations under
  * the License.
  */
-package com.android.launcher3.util.rule;
+package com.android.launcher4.util.rule;
 
 import android.app.Activity;
 import android.app.Application;
@@ -22,8 +22,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.test.InstrumentationRegistry;
 
-import com.android.launcher3.Launcher;
-import com.android.launcher3.Workspace.ItemOperator;
+import com.android.launcher4.Launcher;
+import com.android.launcher4.Workspace.ItemOperator;
 
 import org.junit.rules.TestRule;
 import org.junit.runner.Description;

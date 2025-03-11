@@ -14,18 +14,18 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.model;
+package com.android.launcher4.model;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.os.UserHandle;
 
-import com.android.launcher3.LauncherAppState;
-import com.android.launcher3.LauncherModel;
-import com.android.launcher3.compat.LauncherAppsCompat;
-import com.android.launcher3.util.MultiHashMap;
-import com.android.launcher3.util.PackageManagerHelper;
+import com.android.launcher4.LauncherAppState;
+import com.android.launcher4.LauncherModel;
+import com.android.launcher4.compat.LauncherAppsCompat;
+import com.android.launcher4.util.MultiHashMap;
+import com.android.launcher4.util.PackageManagerHelper;
 
 import java.util.ArrayList;
 import java.util.HashSet;

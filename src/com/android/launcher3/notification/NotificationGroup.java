@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.notification;
+package com.android.launcher4.notification;
 
 import java.util.HashSet;
 import java.util.Set;

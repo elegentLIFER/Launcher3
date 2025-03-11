@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.android.launcher3.util;
+package com.android.launcher4.util;
 
 import android.animation.ArgbEvaluator;
 import android.animation.ObjectAnimator;
@@ -29,7 +29,7 @@ import android.widget.AbsListView.OnScrollListener;
 import android.widget.AbsListView.RecyclerListener;
 import android.widget.ListView;
 
-import com.android.launcher3.R;
+import com.android.launcher4.R;
 
 /**
  * Utility class to scroll and highlight a list view item

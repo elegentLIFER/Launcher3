@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.util;
+package com.android.launcher4.util;
 
 import android.util.Property;
 import android.view.View;

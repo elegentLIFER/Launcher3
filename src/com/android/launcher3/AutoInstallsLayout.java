@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3;
+package com.android.launcher4;
 
 import android.appwidget.AppWidgetHost;
 import android.content.ComponentName;
@@ -37,11 +37,11 @@ import android.util.ArrayMap;
 import android.util.Log;
 import android.util.Pair;
 import android.util.Patterns;
-import com.android.launcher3.LauncherProvider.SqlArguments;
-import com.android.launcher3.LauncherSettings.Favorites;
-import com.android.launcher3.config.FeatureFlags;
-import com.android.launcher3.graphics.LauncherIcons;
-import com.android.launcher3.util.Thunk;
+import com.android.launcher4.LauncherProvider.SqlArguments;
+import com.android.launcher4.LauncherSettings.Favorites;
+import com.android.launcher4.config.FeatureFlags;
+import com.android.launcher4.graphics.LauncherIcons;
+import com.android.launcher4.util.Thunk;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Locale;
@@ -653,7 +653,7 @@ public class AutoInstallsLayout {
      */
     protected static String getAttributeValue(XmlResourceParser parser, String attribute) {
         String value = parser.getAttributeValue(
-                "http://schemas.android.com/apk/res-auto/com.android.launcher3", attribute);
+                "http://schemas.android.com/apk/res-auto/com.android.launcher4", attribute);
         if (value == null) {
             value = parser.getAttributeValue(null, attribute);
         }
@@ -667,7 +667,7 @@ public class AutoInstallsLayout {
     protected static int getAttributeResourceValue(XmlResourceParser parser, String attribute,
             int defaultValue) {
         int value = parser.getAttributeResourceValue(
-                "http://schemas.android.com/apk/res-auto/com.android.launcher3", attribute,
+                "http://schemas.android.com/apk/res-auto/com.android.launcher4", attribute,
                 defaultValue);
         if (value == defaultValue) {
             value = parser.getAttributeResourceValue(null, attribute, defaultValue);

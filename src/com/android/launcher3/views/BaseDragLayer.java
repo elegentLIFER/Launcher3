@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.views;
+package com.android.launcher4.views;
 
-import static com.android.launcher3.Utilities.SINGLE_FRAME_MS;
+import static com.android.launcher4.Utilities.SINGLE_FRAME_MS;
 
 import android.content.Context;
 import android.graphics.Rect;
@@ -27,14 +27,14 @@ import android.view.ViewGroup;
 import android.view.accessibility.AccessibilityEvent;
 import android.widget.FrameLayout;
 
-import com.android.launcher3.AbstractFloatingView;
-import com.android.launcher3.BaseActivity;
-import com.android.launcher3.BaseDraggingActivity;
-import com.android.launcher3.InsettableFrameLayout;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.util.MultiValueAlpha;
-import com.android.launcher3.util.MultiValueAlpha.AlphaProperty;
-import com.android.launcher3.util.TouchController;
+import com.android.launcher4.AbstractFloatingView;
+import com.android.launcher4.BaseActivity;
+import com.android.launcher4.BaseDraggingActivity;
+import com.android.launcher4.InsettableFrameLayout;
+import com.android.launcher4.Utilities;
+import com.android.launcher4.util.MultiValueAlpha;
+import com.android.launcher4.util.MultiValueAlpha.AlphaProperty;
+import com.android.launcher4.util.TouchController;
 
 import java.util.ArrayList;
 

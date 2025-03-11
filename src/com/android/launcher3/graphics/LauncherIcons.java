@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.graphics;
+package com.android.launcher4.graphics;
 
 import static android.graphics.Paint.DITHER_FLAG;
 import static android.graphics.Paint.FILTER_BITMAP_FLAG;
 
-import static com.android.launcher3.graphics.ShadowGenerator.BLUR_FACTOR;
+import static com.android.launcher4.graphics.ShadowGenerator.BLUR_FACTOR;
 
 import android.content.ComponentName;
 import android.content.Context;
@@ -43,19 +43,19 @@ import android.os.Process;
 import android.os.UserHandle;
 import android.support.annotation.Nullable;
 
-import com.android.launcher3.AppInfo;
-import com.android.launcher3.FastBitmapDrawable;
-import com.android.launcher3.IconCache;
-import com.android.launcher3.InvariantDeviceProfile;
-import com.android.launcher3.ItemInfoWithIcon;
-import com.android.launcher3.LauncherAppState;
-import com.android.launcher3.R;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.model.PackageItemInfo;
-import com.android.launcher3.shortcuts.DeepShortcutManager;
-import com.android.launcher3.shortcuts.ShortcutInfoCompat;
-import com.android.launcher3.util.Provider;
-import com.android.launcher3.util.Themes;
+import com.android.launcher4.AppInfo;
+import com.android.launcher4.FastBitmapDrawable;
+import com.android.launcher4.IconCache;
+import com.android.launcher4.InvariantDeviceProfile;
+import com.android.launcher4.ItemInfoWithIcon;
+import com.android.launcher4.LauncherAppState;
+import com.android.launcher4.R;
+import com.android.launcher4.Utilities;
+import com.android.launcher4.model.PackageItemInfo;
+import com.android.launcher4.shortcuts.DeepShortcutManager;
+import com.android.launcher4.shortcuts.ShortcutInfoCompat;
+import com.android.launcher4.util.Provider;
+import com.android.launcher4.util.Themes;
 
 /**
  * Helper methods for generating various launcher icons

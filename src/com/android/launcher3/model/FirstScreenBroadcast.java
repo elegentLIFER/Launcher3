@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.android.launcher3.model;
+package com.android.launcher4.model;
 
 import android.app.PendingIntent;
 import android.content.Context;
@@ -21,11 +21,11 @@ import android.content.Intent;
 import android.content.pm.PackageInstaller.SessionInfo;
 import android.util.Log;
 
-import com.android.launcher3.FolderInfo;
-import com.android.launcher3.ItemInfo;
-import com.android.launcher3.LauncherAppWidgetInfo;
-import com.android.launcher3.LauncherSettings;
-import com.android.launcher3.util.MultiHashMap;
+import com.android.launcher4.FolderInfo;
+import com.android.launcher4.ItemInfo;
+import com.android.launcher4.LauncherAppWidgetInfo;
+import com.android.launcher4.LauncherSettings;
+import com.android.launcher4.util.MultiHashMap;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -49,7 +49,7 @@ public class FirstScreenBroadcast {
     private static final boolean DEBUG = false;
 
     private static final String ACTION_FIRST_SCREEN_ACTIVE_INSTALLS
-            = "com.android.launcher3.action.FIRST_SCREEN_ACTIVE_INSTALLS";
+            = "com.android.launcher4.action.FIRST_SCREEN_ACTIVE_INSTALLS";
 
     private static final String FOLDER_ITEM_EXTRA = "folderItem";
     private static final String WORKSPACE_ITEM_EXTRA = "workspaceItem";

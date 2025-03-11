@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.widget;
+package com.android.launcher4.widget;
 
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 
-import com.android.launcher3.IconCache;
-import com.android.launcher3.model.PackageItemInfo;
-import com.android.launcher3.widget.WidgetsListAdapter.WidgetListRowEntryComparator;
+import com.android.launcher4.IconCache;
+import com.android.launcher4.model.PackageItemInfo;
+import com.android.launcher4.widget.WidgetsListAdapter.WidgetListRowEntryComparator;
 
 import java.util.ArrayList;
 import java.util.Iterator;

@@ -1,5 +1,5 @@
 
-package com.android.launcher3.model;
+package com.android.launcher4.model;
 
 import static android.appwidget.AppWidgetProviderInfo.WIDGET_FEATURE_HIDE_FROM_PICKER;
 
@@ -11,22 +11,22 @@ import android.os.UserHandle;
 import android.support.annotation.Nullable;
 import android.util.Log;
 
-import com.android.launcher3.AppFilter;
-import com.android.launcher3.IconCache;
-import com.android.launcher3.InvariantDeviceProfile;
-import com.android.launcher3.LauncherAppState;
-import com.android.launcher3.LauncherAppWidgetProviderInfo;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.compat.AlphabeticIndexCompat;
-import com.android.launcher3.compat.AppWidgetManagerCompat;
-import com.android.launcher3.compat.LauncherAppsCompat;
-import com.android.launcher3.compat.ShortcutConfigActivityInfo;
-import com.android.launcher3.config.FeatureFlags;
-import com.android.launcher3.util.MultiHashMap;
-import com.android.launcher3.util.PackageUserKey;
-import com.android.launcher3.util.Preconditions;
-import com.android.launcher3.widget.WidgetItemComparator;
-import com.android.launcher3.widget.WidgetListRowEntry;
+import com.android.launcher4.AppFilter;
+import com.android.launcher4.IconCache;
+import com.android.launcher4.InvariantDeviceProfile;
+import com.android.launcher4.LauncherAppState;
+import com.android.launcher4.LauncherAppWidgetProviderInfo;
+import com.android.launcher4.Utilities;
+import com.android.launcher4.compat.AlphabeticIndexCompat;
+import com.android.launcher4.compat.AppWidgetManagerCompat;
+import com.android.launcher4.compat.LauncherAppsCompat;
+import com.android.launcher4.compat.ShortcutConfigActivityInfo;
+import com.android.launcher4.config.FeatureFlags;
+import com.android.launcher4.util.MultiHashMap;
+import com.android.launcher4.util.PackageUserKey;
+import com.android.launcher4.util.Preconditions;
+import com.android.launcher4.widget.WidgetItemComparator;
+import com.android.launcher4.widget.WidgetListRowEntry;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -53,9 +53,9 @@ public class WidgetsModel {
      * Returns a list of {@link WidgetListRowEntry}. All {@link WidgetItem} in a single row
      * are sorted (based on label and user), but the overall list of {@link WidgetListRowEntry}s
      * is not sorted. This list is sorted at the UI when using
-     * {@link com.android.launcher3.widget.WidgetsDiffReporter}
+     * {@link com.android.launcher4.widget.WidgetsDiffReporter}
      *
-     * @see com.android.launcher3.widget.WidgetsListAdapter#setWidgets(ArrayList)
+     * @see com.android.launcher4.widget.WidgetsListAdapter#setWidgets(ArrayList)
      */
     public synchronized ArrayList<WidgetListRowEntry> getWidgetsList(Context context) {
         ArrayList<WidgetListRowEntry> result = new ArrayList<>();

@@ -1,4 +1,4 @@
-package com.android.launcher3.anim;
+package com.android.launcher4.anim;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -8,7 +8,7 @@ import android.graphics.Rect;
 import android.view.View;
 import android.view.ViewOutlineProvider;
 
-import com.android.launcher3.Utilities;
+import com.android.launcher4.Utilities;
 
 /**
  * A {@link ViewOutlineProvider} that has helper functions to create reveal animations.

@@ -13,7 +13,7 @@
  * License for the specific language governing permissions and limitations under
  * the License.
  */
-package com.android.launcher3.testcomponent;
+package com.android.launcher4.testcomponent;
 
 /**
  * A simple app widget with configuration sceen.

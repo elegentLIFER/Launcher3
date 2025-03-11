@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.android.launcher3.model;
+package com.android.launcher4.model;
 
 import android.content.ComponentName;
 import android.content.Context;
@@ -23,32 +23,32 @@ import android.os.UserHandle;
 import android.util.ArrayMap;
 import android.util.Log;
 
-import com.android.launcher3.AllAppsList;
-import com.android.launcher3.AppInfo;
-import com.android.launcher3.IconCache;
-import com.android.launcher3.InstallShortcutReceiver;
-import com.android.launcher3.ItemInfo;
-import com.android.launcher3.LauncherAppState;
-import com.android.launcher3.LauncherAppWidgetInfo;
-import com.android.launcher3.LauncherModel.CallbackTask;
-import com.android.launcher3.LauncherModel.Callbacks;
-import com.android.launcher3.LauncherSettings.Favorites;
-import com.android.launcher3.SessionCommitReceiver;
-import com.android.launcher3.ShortcutInfo;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.compat.LauncherAppsCompat;
-import com.android.launcher3.compat.UserManagerCompat;
-import com.android.launcher3.config.FeatureFlags;
-import com.android.launcher3.graphics.BitmapInfo;
-import com.android.launcher3.graphics.LauncherIcons;
-import com.android.launcher3.logging.FileLog;
-import com.android.launcher3.shortcuts.DeepShortcutManager;
-import com.android.launcher3.shortcuts.ShortcutInfoCompat;
-import com.android.launcher3.util.FlagOp;
-import com.android.launcher3.util.ItemInfoMatcher;
-import com.android.launcher3.util.LongArrayMap;
-import com.android.launcher3.util.PackageManagerHelper;
-import com.android.launcher3.util.PackageUserKey;
+import com.android.launcher4.AllAppsList;
+import com.android.launcher4.AppInfo;
+import com.android.launcher4.IconCache;
+import com.android.launcher4.InstallShortcutReceiver;
+import com.android.launcher4.ItemInfo;
+import com.android.launcher4.LauncherAppState;
+import com.android.launcher4.LauncherAppWidgetInfo;
+import com.android.launcher4.LauncherModel.CallbackTask;
+import com.android.launcher4.LauncherModel.Callbacks;
+import com.android.launcher4.LauncherSettings.Favorites;
+import com.android.launcher4.SessionCommitReceiver;
+import com.android.launcher4.ShortcutInfo;
+import com.android.launcher4.Utilities;
+import com.android.launcher4.compat.LauncherAppsCompat;
+import com.android.launcher4.compat.UserManagerCompat;
+import com.android.launcher4.config.FeatureFlags;
+import com.android.launcher4.graphics.BitmapInfo;
+import com.android.launcher4.graphics.LauncherIcons;
+import com.android.launcher4.logging.FileLog;
+import com.android.launcher4.shortcuts.DeepShortcutManager;
+import com.android.launcher4.shortcuts.ShortcutInfoCompat;
+import com.android.launcher4.util.FlagOp;
+import com.android.launcher4.util.ItemInfoMatcher;
+import com.android.launcher4.util.LongArrayMap;
+import com.android.launcher4.util.PackageManagerHelper;
+import com.android.launcher4.util.PackageUserKey;
 
 import java.util.ArrayList;
 import java.util.Arrays;

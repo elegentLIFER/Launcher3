@@ -1,4 +1,4 @@
-package com.android.launcher3.dragndrop;
+package com.android.launcher4.dragndrop;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -8,10 +8,10 @@ import android.view.View;
 import android.widget.FrameLayout;
 import android.widget.RemoteViews;
 
-import com.android.launcher3.BaseActivity;
-import com.android.launcher3.DeviceProfile;
-import com.android.launcher3.LauncherAppWidgetProviderInfo;
-import com.android.launcher3.widget.WidgetCell;
+import com.android.launcher4.BaseActivity;
+import com.android.launcher4.DeviceProfile;
+import com.android.launcher4.LauncherAppWidgetProviderInfo;
+import com.android.launcher4.widget.WidgetCell;
 
 /**
  * Extension of {@link WidgetCell} which supports generating previews from {@link RemoteViews}
@@ -51,7 +51,7 @@ public class LivePreviewWidgetCell extends WidgetCell {
 
     /**
      * Generates a bitmap by inflating {@param views}.
-     * @see com.android.launcher3.WidgetPreviewLoader#generateWidgetPreview
+     * @see com.android.launcher4.WidgetPreviewLoader#generateWidgetPreview
      *
      * TODO: Consider moving this to the background thread.
      */

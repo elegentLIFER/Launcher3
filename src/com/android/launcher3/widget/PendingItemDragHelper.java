@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.widget;
+package com.android.launcher4.widget;
 
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
@@ -25,16 +25,16 @@ import android.graphics.drawable.Drawable;
 import android.view.View;
 import android.widget.RemoteViews;
 
-import com.android.launcher3.DeviceProfile;
-import com.android.launcher3.DragSource;
-import com.android.launcher3.Launcher;
-import com.android.launcher3.LauncherAppState;
-import com.android.launcher3.PendingAddItemInfo;
-import com.android.launcher3.R;
-import com.android.launcher3.dragndrop.DragOptions;
-import com.android.launcher3.dragndrop.LivePreviewWidgetCell;
-import com.android.launcher3.graphics.DragPreviewProvider;
-import com.android.launcher3.graphics.LauncherIcons;
+import com.android.launcher4.DeviceProfile;
+import com.android.launcher4.DragSource;
+import com.android.launcher4.Launcher;
+import com.android.launcher4.LauncherAppState;
+import com.android.launcher4.PendingAddItemInfo;
+import com.android.launcher4.R;
+import com.android.launcher4.dragndrop.DragOptions;
+import com.android.launcher4.dragndrop.LivePreviewWidgetCell;
+import com.android.launcher4.graphics.DragPreviewProvider;
+import com.android.launcher4.graphics.LauncherIcons;
 
 /**
  * Extension of {@link DragPreviewProvider} with logic specific to pending widgets/shortcuts

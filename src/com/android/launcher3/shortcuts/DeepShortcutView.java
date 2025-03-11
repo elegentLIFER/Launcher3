@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.shortcuts;
+package com.android.launcher4.shortcuts;
 
 import android.content.Context;
 import android.graphics.Point;
@@ -24,13 +24,13 @@ import android.util.AttributeSet;
 import android.view.View;
 import android.widget.FrameLayout;
 
-import com.android.launcher3.BubbleTextView;
-import com.android.launcher3.Launcher;
-import com.android.launcher3.R;
-import com.android.launcher3.ShortcutInfo;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.popup.PopupContainerWithArrow;
-import com.android.launcher3.touch.ItemClickHandler;
+import com.android.launcher4.BubbleTextView;
+import com.android.launcher4.Launcher;
+import com.android.launcher4.R;
+import com.android.launcher4.ShortcutInfo;
+import com.android.launcher4.Utilities;
+import com.android.launcher4.popup.PopupContainerWithArrow;
+import com.android.launcher4.touch.ItemClickHandler;
 
 /**
  * A {@link android.widget.FrameLayout} that contains a {@link DeepShortcutView}.

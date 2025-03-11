@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3;
+package com.android.launcher4;
 
 import android.content.pm.PackageManager;
 import android.content.res.Resources;
@@ -35,7 +35,7 @@ public class Partner {
 
     /** Marker action used to discover partner */
     private static final String
-            ACTION_PARTNER_CUSTOMIZATION = "com.android.launcher3.action.PARTNER_CUSTOMIZATION";
+            ACTION_PARTNER_CUSTOMIZATION = "com.android.launcher4.action.PARTNER_CUSTOMIZATION";
 
     public static final String RES_FOLDER = "partner_folder";
     public static final String RES_WALLPAPERS = "partner_wallpapers";

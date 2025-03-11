@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.android.launcher3;
+package com.android.launcher4;
 
 import android.os.Process;
 
-import com.android.launcher3.model.ModelWriter;
-import com.android.launcher3.util.ContentWriter;
+import com.android.launcher4.model.ModelWriter;
+import com.android.launcher4.util.ContentWriter;
 
 import java.util.ArrayList;
 

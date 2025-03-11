@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3;
+package com.android.launcher4;
 
 import android.annotation.TargetApi;
 import android.appwidget.AppWidgetHost;
@@ -48,19 +48,19 @@ import android.os.UserManager;
 import android.text.TextUtils;
 import android.util.Log;
 
-import com.android.launcher3.AutoInstallsLayout.LayoutParserCallback;
-import com.android.launcher3.LauncherSettings.Favorites;
-import com.android.launcher3.LauncherSettings.WorkspaceScreens;
-import com.android.launcher3.compat.UserManagerCompat;
-import com.android.launcher3.config.FeatureFlags;
-import com.android.launcher3.logging.FileLog;
-import com.android.launcher3.model.DbDowngradeHelper;
-import com.android.launcher3.provider.LauncherDbUtils;
-import com.android.launcher3.provider.LauncherDbUtils.SQLiteTransaction;
-import com.android.launcher3.provider.RestoreDbTask;
-import com.android.launcher3.util.NoLocaleSQLiteHelper;
-import com.android.launcher3.util.Preconditions;
-import com.android.launcher3.util.Thunk;
+import com.android.launcher4.AutoInstallsLayout.LayoutParserCallback;
+import com.android.launcher4.LauncherSettings.Favorites;
+import com.android.launcher4.LauncherSettings.WorkspaceScreens;
+import com.android.launcher4.compat.UserManagerCompat;
+import com.android.launcher4.config.FeatureFlags;
+import com.android.launcher4.logging.FileLog;
+import com.android.launcher4.model.DbDowngradeHelper;
+import com.android.launcher4.provider.LauncherDbUtils;
+import com.android.launcher4.provider.LauncherDbUtils.SQLiteTransaction;
+import com.android.launcher4.provider.RestoreDbTask;
+import com.android.launcher4.util.NoLocaleSQLiteHelper;
+import com.android.launcher4.util.Preconditions;
+import com.android.launcher4.util.Thunk;
 
 import java.io.File;
 import java.io.FileDescriptor;
@@ -94,7 +94,7 @@ public class LauncherProvider extends ContentProvider {
     protected DatabaseHelper mOpenHelper;
 
     /**
-     * $ adb shell dumpsys activity provider com.android.launcher3
+     * $ adb shell dumpsys activity provider com.android.launcher4
      */
     @Override
     public void dump(FileDescriptor fd, PrintWriter writer, String[] args) {

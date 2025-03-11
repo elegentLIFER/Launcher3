@@ -1,4 +1,4 @@
-package com.android.launcher3.ui;
+package com.android.launcher4.ui;
 
 import android.content.pm.LauncherActivityInfo;
 import android.graphics.Point;
@@ -9,11 +9,11 @@ import android.support.test.uiautomator.UiObject2;
 import android.support.test.uiautomator.Until;
 import android.view.MotionEvent;
 
-import com.android.launcher3.R;
-import com.android.launcher3.util.Condition;
-import com.android.launcher3.util.Wait;
-import com.android.launcher3.util.rule.LauncherActivityRule;
-import com.android.launcher3.util.rule.ShellCommandRule;
+import com.android.launcher4.R;
+import com.android.launcher4.util.Condition;
+import com.android.launcher4.util.Wait;
+import com.android.launcher4.util.rule.LauncherActivityRule;
+import com.android.launcher4.util.rule.ShellCommandRule;
 
 import org.junit.Rule;
 import org.junit.Test;

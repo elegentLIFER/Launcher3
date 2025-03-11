@@ -1,4 +1,4 @@
-package com.android.launcher3.model;
+package com.android.launcher4.model;
 
 import android.content.ContentResolver;
 import android.content.ContentValues;
@@ -12,13 +12,13 @@ import android.support.test.filters.MediumTest;
 import android.support.test.rule.provider.ProviderTestRule;
 import android.support.test.runner.AndroidJUnit4;
 
-import com.android.launcher3.InvariantDeviceProfile;
-import com.android.launcher3.LauncherModel;
-import com.android.launcher3.LauncherProvider;
-import com.android.launcher3.LauncherSettings;
-import com.android.launcher3.config.FeatureFlags;
-import com.android.launcher3.model.GridSizeMigrationTask.MultiStepMigrationTask;
-import com.android.launcher3.util.TestLauncherProvider;
+import com.android.launcher4.InvariantDeviceProfile;
+import com.android.launcher4.LauncherModel;
+import com.android.launcher4.LauncherProvider;
+import com.android.launcher4.LauncherSettings;
+import com.android.launcher4.config.FeatureFlags;
+import com.android.launcher4.model.GridSizeMigrationTask.MultiStepMigrationTask;
+import com.android.launcher4.util.TestLauncherProvider;
 
 import org.junit.Before;
 import org.junit.Rule;
@@ -50,7 +50,7 @@ public class GridSizeMigrationTaskTest {
     private static final int APPLICATION = LauncherSettings.Favorites.ITEM_TYPE_APPLICATION;
     private static final int SHORTCUT = LauncherSettings.Favorites.ITEM_TYPE_SHORTCUT;
 
-    private static final String TEST_PACKAGE = "com.android.launcher3.validpackage";
+    private static final String TEST_PACKAGE = "com.android.launcher4.validpackage";
     private static final String VALID_INTENT =
             new Intent(Intent.ACTION_MAIN).setPackage(TEST_PACKAGE).toUri(0);
 

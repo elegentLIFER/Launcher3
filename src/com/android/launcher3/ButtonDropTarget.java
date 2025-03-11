@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.android.launcher3;
+package com.android.launcher4;
 
 import static android.view.ViewGroup.LayoutParams.WRAP_CONTENT;
 
-import static com.android.launcher3.LauncherState.NORMAL;
+import static com.android.launcher4.LauncherState.NORMAL;
 
 import android.animation.AnimatorSet;
 import android.animation.FloatArrayEvaluator;
@@ -40,14 +40,14 @@ import android.view.accessibility.AccessibilityEvent;
 import android.widget.PopupWindow;
 import android.widget.TextView;
 
-import com.android.launcher3.anim.Interpolators;
-import com.android.launcher3.dragndrop.DragController;
-import com.android.launcher3.dragndrop.DragLayer;
-import com.android.launcher3.dragndrop.DragOptions;
-import com.android.launcher3.dragndrop.DragView;
-import com.android.launcher3.userevent.nano.LauncherLogProto.Target;
-import com.android.launcher3.util.Themes;
-import com.android.launcher3.util.Thunk;
+import com.android.launcher4.anim.Interpolators;
+import com.android.launcher4.dragndrop.DragController;
+import com.android.launcher4.dragndrop.DragLayer;
+import com.android.launcher4.dragndrop.DragOptions;
+import com.android.launcher4.dragndrop.DragView;
+import com.android.launcher4.userevent.nano.LauncherLogProto.Target;
+import com.android.launcher4.util.Themes;
+import com.android.launcher4.util.Thunk;
 
 /**
  * Implements a DropTarget.

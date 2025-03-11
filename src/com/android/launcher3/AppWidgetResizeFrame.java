@@ -1,4 +1,4 @@
-package com.android.launcher3;
+package com.android.launcher4;
 
 import android.animation.AnimatorSet;
 import android.animation.ObjectAnimator;
@@ -16,10 +16,10 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.android.launcher3.accessibility.DragViewStateAnnouncer;
-import com.android.launcher3.dragndrop.DragLayer;
-import com.android.launcher3.util.FocusLogic;
-import com.android.launcher3.widget.LauncherAppWidgetHostView;
+import com.android.launcher4.accessibility.DragViewStateAnnouncer;
+import com.android.launcher4.dragndrop.DragLayer;
+import com.android.launcher4.util.FocusLogic;
+import com.android.launcher4.widget.LauncherAppWidgetHostView;
 
 public class AppWidgetResizeFrame extends AbstractFloatingView implements View.OnKeyListener {
     private static final int SNAP_DURATION = 150;

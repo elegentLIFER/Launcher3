@@ -1,4 +1,4 @@
-package com.android.launcher3.model;
+package com.android.launcher4.model;
 
 import android.content.ComponentName;
 import android.content.ContentProviderOperation;
@@ -10,12 +10,12 @@ import android.net.Uri;
 import android.support.test.runner.AndroidJUnit4;
 import android.util.Pair;
 
-import com.android.launcher3.ItemInfo;
-import com.android.launcher3.LauncherProvider;
-import com.android.launcher3.LauncherSettings;
-import com.android.launcher3.ShortcutInfo;
-import com.android.launcher3.util.GridOccupancy;
-import com.android.launcher3.util.LongArrayMap;
+import com.android.launcher4.ItemInfo;
+import com.android.launcher4.LauncherProvider;
+import com.android.launcher4.LauncherSettings;
+import com.android.launcher4.ShortcutInfo;
+import com.android.launcher4.util.GridOccupancy;
+import com.android.launcher4.util.LongArrayMap;
 
 import org.junit.Before;
 import org.junit.Test;

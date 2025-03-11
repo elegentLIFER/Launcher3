@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.folder;
+package com.android.launcher4.folder;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -28,24 +28,24 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewDebug;
 
-import com.android.launcher3.BubbleTextView;
-import com.android.launcher3.CellLayout;
-import com.android.launcher3.DeviceProfile;
-import com.android.launcher3.InvariantDeviceProfile;
-import com.android.launcher3.ItemInfo;
-import com.android.launcher3.Launcher;
-import com.android.launcher3.LauncherAppState;
-import com.android.launcher3.PagedView;
-import com.android.launcher3.R;
-import com.android.launcher3.ShortcutAndWidgetContainer;
-import com.android.launcher3.ShortcutInfo;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.Workspace.ItemOperator;
-import com.android.launcher3.anim.Interpolators;
-import com.android.launcher3.keyboard.ViewGroupFocusHelper;
-import com.android.launcher3.pageindicators.PageIndicatorDots;
-import com.android.launcher3.touch.ItemClickHandler;
-import com.android.launcher3.util.Thunk;
+import com.android.launcher4.BubbleTextView;
+import com.android.launcher4.CellLayout;
+import com.android.launcher4.DeviceProfile;
+import com.android.launcher4.InvariantDeviceProfile;
+import com.android.launcher4.ItemInfo;
+import com.android.launcher4.Launcher;
+import com.android.launcher4.LauncherAppState;
+import com.android.launcher4.PagedView;
+import com.android.launcher4.R;
+import com.android.launcher4.ShortcutAndWidgetContainer;
+import com.android.launcher4.ShortcutInfo;
+import com.android.launcher4.Utilities;
+import com.android.launcher4.Workspace.ItemOperator;
+import com.android.launcher4.anim.Interpolators;
+import com.android.launcher4.keyboard.ViewGroupFocusHelper;
+import com.android.launcher4.pageindicators.PageIndicatorDots;
+import com.android.launcher4.touch.ItemClickHandler;
+import com.android.launcher4.util.Thunk;
 
 import java.util.ArrayList;
 import java.util.Iterator;

@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.android.launcher3.allapps;
+package com.android.launcher4.allapps;
 
 import static android.view.View.MeasureSpec.UNSPECIFIED;
 
@@ -27,17 +27,17 @@ import android.util.SparseIntArray;
 import android.view.MotionEvent;
 import android.view.View;
 
-import com.android.launcher3.BaseRecyclerView;
-import com.android.launcher3.DeviceProfile;
-import com.android.launcher3.ItemInfo;
-import com.android.launcher3.Launcher;
-import com.android.launcher3.LauncherAppState;
-import com.android.launcher3.R;
-import com.android.launcher3.graphics.DrawableFactory;
-import com.android.launcher3.logging.UserEventDispatcher.LogContainerProvider;
-import com.android.launcher3.userevent.nano.LauncherLogProto.ContainerType;
-import com.android.launcher3.userevent.nano.LauncherLogProto.Target;
-import com.android.launcher3.views.RecyclerViewFastScroller;
+import com.android.launcher4.BaseRecyclerView;
+import com.android.launcher4.DeviceProfile;
+import com.android.launcher4.ItemInfo;
+import com.android.launcher4.Launcher;
+import com.android.launcher4.LauncherAppState;
+import com.android.launcher4.R;
+import com.android.launcher4.graphics.DrawableFactory;
+import com.android.launcher4.logging.UserEventDispatcher.LogContainerProvider;
+import com.android.launcher4.userevent.nano.LauncherLogProto.ContainerType;
+import com.android.launcher4.userevent.nano.LauncherLogProto.Target;
+import com.android.launcher4.views.RecyclerViewFastScroller;
 
 import java.util.List;
 

@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.dragndrop;
+package com.android.launcher4.dragndrop;
 
 import android.content.Context;
 import android.view.DragEvent;
 import android.view.MotionEvent;
-import com.android.launcher3.DropTarget.DragObject;
-import com.android.launcher3.Utilities;
+import com.android.launcher4.DropTarget.DragObject;
+import com.android.launcher4.Utilities;
 
 /**
  * Base class for driving a drag/drop operation.

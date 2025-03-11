@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.widget;
+package com.android.launcher4.widget;
 
 import android.appwidget.AppWidgetProviderInfo;
 import android.content.Context;
@@ -27,7 +27,7 @@ import android.text.TextUtils;
 import android.util.TypedValue;
 import android.widget.RemoteViews;
 
-import com.android.launcher3.R;
+import com.android.launcher4.R;
 
 /**
  * A widget host views created while the host has not bind to the system service.

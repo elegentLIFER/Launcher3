@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.android.launcher3.touch;
+package com.android.launcher4.touch;
 
 import android.support.test.InstrumentationRegistry;
 import android.support.test.filters.SmallTest;
@@ -22,7 +22,7 @@ import android.util.Log;
 import android.view.MotionEvent;
 import android.view.ViewConfiguration;
 
-import com.android.launcher3.testcomponent.TouchEventGenerator;
+import com.android.launcher4.testcomponent.TouchEventGenerator;
 
 import org.junit.Before;
 import org.junit.Test;

@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.util;
+package com.android.launcher4.util;
 
 import static android.database.sqlite.SQLiteDatabase.NO_LOCALIZED_COLLATORS;
 
-import static com.android.launcher3.Utilities.ATLEAST_P;
+import static com.android.launcher4.Utilities.ATLEAST_P;
 
 import android.content.Context;
 import android.content.ContextWrapper;

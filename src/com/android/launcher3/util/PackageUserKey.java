@@ -1,10 +1,10 @@
-package com.android.launcher3.util;
+package com.android.launcher4.util;
 
 import android.os.UserHandle;
 import android.service.notification.StatusBarNotification;
 
-import com.android.launcher3.ItemInfo;
-import com.android.launcher3.shortcuts.DeepShortcutManager;
+import com.android.launcher4.ItemInfo;
+import com.android.launcher4.shortcuts.DeepShortcutManager;
 
 import java.util.Arrays;
 

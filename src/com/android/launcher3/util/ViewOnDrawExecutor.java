@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.util;
+package com.android.launcher4.util;
 
 import android.os.Process;
 import android.view.View;
 import android.view.View.OnAttachStateChangeListener;
 import android.view.ViewTreeObserver.OnDrawListener;
 
-import com.android.launcher3.Launcher;
-import com.android.launcher3.LauncherModel;
+import com.android.launcher4.Launcher;
+import com.android.launcher4.LauncherModel;
 
 import java.util.ArrayList;
 import java.util.concurrent.Executor;

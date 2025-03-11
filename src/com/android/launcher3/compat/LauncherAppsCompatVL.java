@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.compat;
+package com.android.launcher4.compat;
 
 import android.content.ComponentName;
 import android.content.Context;
@@ -32,9 +32,9 @@ import android.os.UserHandle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.util.ArrayMap;
-import com.android.launcher3.compat.ShortcutConfigActivityInfo.ShortcutConfigActivityInfoVL;
-import com.android.launcher3.shortcuts.ShortcutInfoCompat;
-import com.android.launcher3.util.PackageUserKey;
+import com.android.launcher4.compat.ShortcutConfigActivityInfo.ShortcutConfigActivityInfoVL;
+import com.android.launcher4.shortcuts.ShortcutInfoCompat;
+import com.android.launcher4.util.PackageUserKey;
 import java.util.ArrayList;
 import java.util.List;
 

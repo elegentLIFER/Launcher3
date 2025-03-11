@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.android.launcher3.views;
+package com.android.launcher4.views;
 
-import static com.android.launcher3.anim.Interpolators.scrollInterpolatorForVelocity;
+import static com.android.launcher4.anim.Interpolators.scrollInterpolatorForVelocity;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -28,12 +28,12 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.view.animation.Interpolator;
 
-import com.android.launcher3.AbstractFloatingView;
-import com.android.launcher3.Launcher;
-import com.android.launcher3.LauncherAnimUtils;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.anim.Interpolators;
-import com.android.launcher3.touch.SwipeDetector;
+import com.android.launcher4.AbstractFloatingView;
+import com.android.launcher4.Launcher;
+import com.android.launcher4.LauncherAnimUtils;
+import com.android.launcher4.Utilities;
+import com.android.launcher4.anim.Interpolators;
+import com.android.launcher4.touch.SwipeDetector;
 
 /**
  * Extension of AbstractFloatingView with common methods for sliding in from bottom

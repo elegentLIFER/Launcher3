@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.graphics;
+package com.android.launcher4.graphics;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -28,13 +28,13 @@ import android.graphics.drawable.Drawable;
 import android.os.Handler;
 import android.view.View;
 
-import com.android.launcher3.BubbleTextView;
-import com.android.launcher3.Launcher;
-import com.android.launcher3.R;
-import com.android.launcher3.config.FeatureFlags;
-import com.android.launcher3.folder.FolderIcon;
-import com.android.launcher3.util.UiThreadHelper;
-import com.android.launcher3.widget.LauncherAppWidgetHostView;
+import com.android.launcher4.BubbleTextView;
+import com.android.launcher4.Launcher;
+import com.android.launcher4.R;
+import com.android.launcher4.config.FeatureFlags;
+import com.android.launcher4.folder.FolderIcon;
+import com.android.launcher4.util.UiThreadHelper;
+import com.android.launcher4.widget.LauncherAppWidgetHostView;
 
 import java.nio.ByteBuffer;
 

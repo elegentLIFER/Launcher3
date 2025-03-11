@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.util;
+package com.android.launcher4.util;
 
 import android.os.Looper;
 import android.os.MessageQueue;
 
-import com.android.launcher3.Utilities;
+import com.android.launcher4.Utilities;
 
 /**
  * Utility class to block execution until the UI looper is idle.

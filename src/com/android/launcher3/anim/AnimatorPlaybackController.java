@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.android.launcher3.anim;
+package com.android.launcher4.anim;
 
-import static com.android.launcher3.anim.Interpolators.LINEAR;
+import static com.android.launcher4.anim.Interpolators.LINEAR;
 
 import android.animation.Animator;
 import android.animation.Animator.AnimatorListener;

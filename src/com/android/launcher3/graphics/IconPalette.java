@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.graphics;
+package com.android.launcher4.graphics;
 
 import android.app.Notification;
 import android.content.Context;
@@ -22,8 +22,8 @@ import android.graphics.Color;
 import android.support.v4.graphics.ColorUtils;
 import android.util.Log;
 
-import com.android.launcher3.R;
-import com.android.launcher3.util.Themes;
+import com.android.launcher4.R;
+import com.android.launcher4.util.Themes;
 
 /**
  * Contains colors based on the dominant color of an icon.

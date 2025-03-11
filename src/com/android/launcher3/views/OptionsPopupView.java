@@ -13,10 +13,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.android.launcher3.views;
+package com.android.launcher4.views;
 
-import static com.android.launcher3.BaseDraggingActivity.INTENT_EXTRA_IGNORE_LAUNCH_ANIMATION;
-import static com.android.launcher3.Utilities.EXTRA_WALLPAPER_OFFSET;
+import static com.android.launcher4.BaseDraggingActivity.INTENT_EXTRA_IGNORE_LAUNCH_ANIMATION;
+import static com.android.launcher4.Utilities.EXTRA_WALLPAPER_OFFSET;
 
 import android.content.Context;
 import android.content.Intent;
@@ -31,14 +31,14 @@ import android.view.View.OnClickListener;
 import android.view.View.OnLongClickListener;
 import android.widget.Toast;
 
-import com.android.launcher3.Launcher;
-import com.android.launcher3.R;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.popup.ArrowPopup;
-import com.android.launcher3.shortcuts.DeepShortcutView;
-import com.android.launcher3.userevent.nano.LauncherLogProto.Action;
-import com.android.launcher3.userevent.nano.LauncherLogProto.ControlType;
-import com.android.launcher3.widget.WidgetsFullSheet;
+import com.android.launcher4.Launcher;
+import com.android.launcher4.R;
+import com.android.launcher4.Utilities;
+import com.android.launcher4.popup.ArrowPopup;
+import com.android.launcher4.shortcuts.DeepShortcutView;
+import com.android.launcher4.userevent.nano.LauncherLogProto.Action;
+import com.android.launcher4.userevent.nano.LauncherLogProto.ControlType;
+import com.android.launcher4.widget.WidgetsFullSheet;
 
 import java.util.ArrayList;
 import java.util.List;

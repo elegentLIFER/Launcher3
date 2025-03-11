@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.widget;
+package com.android.launcher4.widget;
 
 import android.content.Context;
 import android.graphics.Point;
@@ -25,8 +25,8 @@ import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.view.View;
 
-import com.android.launcher3.BaseRecyclerView;
-import com.android.launcher3.R;
+import com.android.launcher4.BaseRecyclerView;
+import com.android.launcher4.R;
 
 /**
  * The widgets recycler view.

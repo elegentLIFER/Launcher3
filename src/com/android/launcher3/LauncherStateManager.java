@@ -14,20 +14,20 @@
  * limitations under the License.
  */
 
-package com.android.launcher3;
+package com.android.launcher4;
 
 import static android.view.View.VISIBLE;
-import static com.android.launcher3.LauncherState.NORMAL;
-import static com.android.launcher3.anim.AnimatorSetBuilder.ANIM_OVERVIEW_FADE;
-import static com.android.launcher3.anim.AnimatorSetBuilder.ANIM_OVERVIEW_SCALE;
-import static com.android.launcher3.anim.AnimatorSetBuilder.ANIM_WORKSPACE_FADE;
-import static com.android.launcher3.anim.AnimatorSetBuilder.ANIM_WORKSPACE_SCALE;
-import static com.android.launcher3.anim.Interpolators.ACCEL;
-import static com.android.launcher3.anim.Interpolators.DEACCEL;
-import static com.android.launcher3.anim.Interpolators.DEACCEL_1_7;
-import static com.android.launcher3.anim.Interpolators.OVERSHOOT_1_2;
-import static com.android.launcher3.anim.Interpolators.clampToProgress;
-import static com.android.launcher3.anim.PropertySetter.NO_ANIM_PROPERTY_SETTER;
+import static com.android.launcher4.LauncherState.NORMAL;
+import static com.android.launcher4.anim.AnimatorSetBuilder.ANIM_OVERVIEW_FADE;
+import static com.android.launcher4.anim.AnimatorSetBuilder.ANIM_OVERVIEW_SCALE;
+import static com.android.launcher4.anim.AnimatorSetBuilder.ANIM_WORKSPACE_FADE;
+import static com.android.launcher4.anim.AnimatorSetBuilder.ANIM_WORKSPACE_SCALE;
+import static com.android.launcher4.anim.Interpolators.ACCEL;
+import static com.android.launcher4.anim.Interpolators.DEACCEL;
+import static com.android.launcher4.anim.Interpolators.DEACCEL_1_7;
+import static com.android.launcher4.anim.Interpolators.OVERSHOOT_1_2;
+import static com.android.launcher4.anim.Interpolators.clampToProgress;
+import static com.android.launcher4.anim.PropertySetter.NO_ANIM_PROPERTY_SETTER;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -36,12 +36,12 @@ import android.os.Handler;
 import android.os.Looper;
 import android.support.annotation.IntDef;
 
-import com.android.launcher3.anim.AnimationSuccessListener;
-import com.android.launcher3.anim.AnimatorPlaybackController;
-import com.android.launcher3.anim.AnimatorSetBuilder;
-import com.android.launcher3.anim.PropertySetter;
-import com.android.launcher3.anim.PropertySetter.AnimatedPropertySetter;
-import com.android.launcher3.uioverrides.UiFactory;
+import com.android.launcher4.anim.AnimationSuccessListener;
+import com.android.launcher4.anim.AnimatorPlaybackController;
+import com.android.launcher4.anim.AnimatorSetBuilder;
+import com.android.launcher4.anim.PropertySetter;
+import com.android.launcher4.anim.PropertySetter.AnimatedPropertySetter;
+import com.android.launcher4.uioverrides.UiFactory;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;

@@ -13,27 +13,27 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.android.launcher3.touch;
+package com.android.launcher4.touch;
 
 import static android.view.View.INVISIBLE;
 import static android.view.View.VISIBLE;
 
-import static com.android.launcher3.LauncherState.ALL_APPS;
-import static com.android.launcher3.LauncherState.NORMAL;
-import static com.android.launcher3.LauncherState.OVERVIEW;
+import static com.android.launcher4.LauncherState.ALL_APPS;
+import static com.android.launcher4.LauncherState.NORMAL;
+import static com.android.launcher4.LauncherState.OVERVIEW;
 
 import android.view.View;
 import android.view.View.OnLongClickListener;
 
-import com.android.launcher3.CellLayout;
-import com.android.launcher3.DeviceProfile;
-import com.android.launcher3.DropTarget;
-import com.android.launcher3.ItemInfo;
-import com.android.launcher3.Launcher;
-import com.android.launcher3.LauncherState;
-import com.android.launcher3.dragndrop.DragController;
-import com.android.launcher3.dragndrop.DragOptions;
-import com.android.launcher3.folder.Folder;
+import com.android.launcher4.CellLayout;
+import com.android.launcher4.DeviceProfile;
+import com.android.launcher4.DropTarget;
+import com.android.launcher4.ItemInfo;
+import com.android.launcher4.Launcher;
+import com.android.launcher4.LauncherState;
+import com.android.launcher4.dragndrop.DragController;
+import com.android.launcher4.dragndrop.DragOptions;
+import com.android.launcher4.folder.Folder;
 
 /**
  * Class to handle long-clicks on workspace items and start drag as a result.

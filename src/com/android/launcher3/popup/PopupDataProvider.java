@@ -14,25 +14,25 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.popup;
+package com.android.launcher4.popup;
 
 import android.content.ComponentName;
 import android.service.notification.StatusBarNotification;
 import android.support.annotation.NonNull;
 import android.util.Log;
 
-import com.android.launcher3.ItemInfo;
-import com.android.launcher3.Launcher;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.badge.BadgeInfo;
-import com.android.launcher3.model.WidgetItem;
-import com.android.launcher3.notification.NotificationKeyData;
-import com.android.launcher3.notification.NotificationListener;
-import com.android.launcher3.shortcuts.DeepShortcutManager;
-import com.android.launcher3.util.ComponentKey;
-import com.android.launcher3.util.MultiHashMap;
-import com.android.launcher3.util.PackageUserKey;
-import com.android.launcher3.widget.WidgetListRowEntry;
+import com.android.launcher4.ItemInfo;
+import com.android.launcher4.Launcher;
+import com.android.launcher4.Utilities;
+import com.android.launcher4.badge.BadgeInfo;
+import com.android.launcher4.model.WidgetItem;
+import com.android.launcher4.notification.NotificationKeyData;
+import com.android.launcher4.notification.NotificationListener;
+import com.android.launcher4.shortcuts.DeepShortcutManager;
+import com.android.launcher4.util.ComponentKey;
+import com.android.launcher4.util.MultiHashMap;
+import com.android.launcher4.util.PackageUserKey;
+import com.android.launcher4.widget.WidgetListRowEntry;
 
 import java.util.ArrayList;
 import java.util.Collections;

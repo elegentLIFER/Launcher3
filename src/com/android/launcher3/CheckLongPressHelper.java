@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.android.launcher3;
+package com.android.launcher4;
 
 import android.view.View;
 
-import com.android.launcher3.util.Thunk;
+import com.android.launcher4.util.Thunk;
 
 public class CheckLongPressHelper {
 

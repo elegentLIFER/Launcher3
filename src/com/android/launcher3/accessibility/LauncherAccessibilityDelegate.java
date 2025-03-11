@@ -1,6 +1,6 @@
-package com.android.launcher3.accessibility;
+package com.android.launcher4.accessibility;
 
-import static com.android.launcher3.LauncherState.NORMAL;
+import static com.android.launcher4.LauncherState.NORMAL;
 
 import android.app.AlertDialog;
 import android.appwidget.AppWidgetProviderInfo;
@@ -16,31 +16,31 @@ import android.view.View.AccessibilityDelegate;
 import android.view.accessibility.AccessibilityNodeInfo;
 import android.view.accessibility.AccessibilityNodeInfo.AccessibilityAction;
 
-import com.android.launcher3.AppInfo;
-import com.android.launcher3.AppWidgetResizeFrame;
-import com.android.launcher3.BubbleTextView;
-import com.android.launcher3.ButtonDropTarget;
-import com.android.launcher3.CellLayout;
-import com.android.launcher3.DropTarget.DragObject;
-import com.android.launcher3.FolderInfo;
-import com.android.launcher3.ItemInfo;
-import com.android.launcher3.Launcher;
-import com.android.launcher3.LauncherAppWidgetInfo;
-import com.android.launcher3.LauncherSettings;
-import com.android.launcher3.LauncherSettings.Favorites;
-import com.android.launcher3.PendingAddItemInfo;
-import com.android.launcher3.R;
-import com.android.launcher3.ShortcutInfo;
-import com.android.launcher3.Workspace;
-import com.android.launcher3.dragndrop.DragController.DragListener;
-import com.android.launcher3.dragndrop.DragOptions;
-import com.android.launcher3.folder.Folder;
-import com.android.launcher3.notification.NotificationListener;
-import com.android.launcher3.popup.PopupContainerWithArrow;
-import com.android.launcher3.shortcuts.DeepShortcutManager;
-import com.android.launcher3.touch.ItemLongClickListener;
-import com.android.launcher3.util.Thunk;
-import com.android.launcher3.widget.LauncherAppWidgetHostView;
+import com.android.launcher4.AppInfo;
+import com.android.launcher4.AppWidgetResizeFrame;
+import com.android.launcher4.BubbleTextView;
+import com.android.launcher4.ButtonDropTarget;
+import com.android.launcher4.CellLayout;
+import com.android.launcher4.DropTarget.DragObject;
+import com.android.launcher4.FolderInfo;
+import com.android.launcher4.ItemInfo;
+import com.android.launcher4.Launcher;
+import com.android.launcher4.LauncherAppWidgetInfo;
+import com.android.launcher4.LauncherSettings;
+import com.android.launcher4.LauncherSettings.Favorites;
+import com.android.launcher4.PendingAddItemInfo;
+import com.android.launcher4.R;
+import com.android.launcher4.ShortcutInfo;
+import com.android.launcher4.Workspace;
+import com.android.launcher4.dragndrop.DragController.DragListener;
+import com.android.launcher4.dragndrop.DragOptions;
+import com.android.launcher4.folder.Folder;
+import com.android.launcher4.notification.NotificationListener;
+import com.android.launcher4.popup.PopupContainerWithArrow;
+import com.android.launcher4.shortcuts.DeepShortcutManager;
+import com.android.launcher4.touch.ItemLongClickListener;
+import com.android.launcher4.util.Thunk;
+import com.android.launcher4.widget.LauncherAppWidgetHostView;
 
 import java.util.ArrayList;
 

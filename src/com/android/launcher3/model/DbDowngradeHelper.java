@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.android.launcher3.model;
+package com.android.launcher4.model;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
@@ -21,8 +21,8 @@ import android.database.sqlite.SQLiteException;
 import android.util.Log;
 import android.util.SparseArray;
 
-import com.android.launcher3.provider.LauncherDbUtils.SQLiteTransaction;
-import com.android.launcher3.util.IOUtils;
+import com.android.launcher4.provider.LauncherDbUtils.SQLiteTransaction;
+import com.android.launcher4.util.IOUtils;
 
 import org.json.JSONArray;
 import org.json.JSONException;

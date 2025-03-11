@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.android.launcher3.views;
+package com.android.launcher4.views;
 
 import android.animation.PropertyValuesHolder;
 import android.content.Context;
@@ -24,12 +24,12 @@ import android.view.TouchDelegate;
 import android.view.View;
 import android.view.accessibility.AccessibilityEvent;
 
-import com.android.launcher3.Insettable;
-import com.android.launcher3.Launcher;
-import com.android.launcher3.R;
-import com.android.launcher3.anim.Interpolators;
+import com.android.launcher4.Insettable;
+import com.android.launcher4.Launcher;
+import com.android.launcher4.R;
+import com.android.launcher4.anim.Interpolators;
 
-import static com.android.launcher3.compat.AccessibilityManagerCompat.sendCustomAccessibilityEvent;
+import static com.android.launcher4.compat.AccessibilityManagerCompat.sendCustomAccessibilityEvent;
 
 public class BottomUserEducationView extends AbstractSlideInView implements Insettable {
 

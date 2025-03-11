@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.dragndrop;
+package com.android.launcher4.dragndrop;
 
-import static com.android.launcher3.LauncherAnimUtils.SPRING_LOADED_EXIT_DELAY;
-import static com.android.launcher3.LauncherState.NORMAL;
+import static com.android.launcher4.LauncherAnimUtils.SPRING_LOADED_EXIT_DELAY;
+import static com.android.launcher4.LauncherState.NORMAL;
 
 import android.content.ComponentName;
 import android.content.res.Resources;
@@ -31,17 +31,17 @@ import android.view.KeyEvent;
 import android.view.MotionEvent;
 import android.view.View;
 
-import com.android.launcher3.DragSource;
-import com.android.launcher3.DropTarget;
-import com.android.launcher3.ItemInfo;
-import com.android.launcher3.Launcher;
-import com.android.launcher3.R;
-import com.android.launcher3.ShortcutInfo;
-import com.android.launcher3.accessibility.DragViewStateAnnouncer;
-import com.android.launcher3.util.ItemInfoMatcher;
-import com.android.launcher3.util.Thunk;
-import com.android.launcher3.util.TouchController;
-import com.android.launcher3.util.UiThreadHelper;
+import com.android.launcher4.DragSource;
+import com.android.launcher4.DropTarget;
+import com.android.launcher4.ItemInfo;
+import com.android.launcher4.Launcher;
+import com.android.launcher4.R;
+import com.android.launcher4.ShortcutInfo;
+import com.android.launcher4.accessibility.DragViewStateAnnouncer;
+import com.android.launcher4.util.ItemInfoMatcher;
+import com.android.launcher4.util.Thunk;
+import com.android.launcher4.util.TouchController;
+import com.android.launcher4.util.UiThreadHelper;
 
 import java.util.ArrayList;
 

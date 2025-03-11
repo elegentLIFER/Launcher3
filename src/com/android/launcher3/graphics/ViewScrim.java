@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.graphics;
+package com.android.launcher4.graphics;
 
 import android.graphics.Canvas;
 import android.util.Property;
 import android.view.View;
 import android.view.ViewParent;
 
-import com.android.launcher3.R;
+import com.android.launcher4.R;
 
 /**
  * A utility class that can be used to draw a scrim behind a view

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3;
+package com.android.launcher4;
 
 import android.util.Log;
 import android.view.KeyEvent;
@@ -22,11 +22,11 @@ import android.view.SoundEffectConstants;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.android.launcher3.config.FeatureFlags;
-import com.android.launcher3.folder.Folder;
-import com.android.launcher3.folder.FolderPagedView;
-import com.android.launcher3.util.FocusLogic;
-import com.android.launcher3.util.Thunk;
+import com.android.launcher4.config.FeatureFlags;
+import com.android.launcher4.folder.Folder;
+import com.android.launcher4.folder.FolderPagedView;
+import com.android.launcher4.util.FocusLogic;
+import com.android.launcher4.util.Thunk;
 
 /**
  * A keyboard listener we set on all the workspace icons.

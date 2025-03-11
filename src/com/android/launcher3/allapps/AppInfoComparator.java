@@ -13,15 +13,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.android.launcher3.allapps;
+package com.android.launcher4.allapps;
 
 import android.content.Context;
 import android.os.Process;
 import android.os.UserHandle;
 
-import com.android.launcher3.AppInfo;
-import com.android.launcher3.compat.UserManagerCompat;
-import com.android.launcher3.util.LabelComparator;
+import com.android.launcher4.AppInfo;
+import com.android.launcher4.compat.UserManagerCompat;
+import com.android.launcher4.util.LabelComparator;
 
 import java.util.Comparator;
 

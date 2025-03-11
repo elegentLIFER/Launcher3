@@ -13,12 +13,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.android.launcher3.allapps.search;
+package com.android.launcher4.allapps.search;
 
 import android.os.Handler;
 
-import com.android.launcher3.AppInfo;
-import com.android.launcher3.util.ComponentKey;
+import com.android.launcher4.AppInfo;
+import com.android.launcher4.util.ComponentKey;
 
 import java.text.Collator;
 import java.util.ArrayList;

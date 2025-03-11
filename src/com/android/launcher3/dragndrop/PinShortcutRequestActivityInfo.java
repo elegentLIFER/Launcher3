@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.dragndrop;
+package com.android.launcher4.dragndrop;
 
 import android.annotation.TargetApi;
 import android.app.Activity;
@@ -27,14 +27,14 @@ import android.graphics.drawable.Drawable;
 import android.os.Build;
 import android.os.Process;
 
-import com.android.launcher3.FastBitmapDrawable;
-import com.android.launcher3.IconCache;
-import com.android.launcher3.LauncherAnimUtils;
-import com.android.launcher3.LauncherAppState;
-import com.android.launcher3.LauncherSettings;
-import com.android.launcher3.R;
-import com.android.launcher3.compat.LauncherAppsCompatVO;
-import com.android.launcher3.compat.ShortcutConfigActivityInfo;
+import com.android.launcher4.FastBitmapDrawable;
+import com.android.launcher4.IconCache;
+import com.android.launcher4.LauncherAnimUtils;
+import com.android.launcher4.LauncherAppState;
+import com.android.launcher4.LauncherSettings;
+import com.android.launcher4.R;
+import com.android.launcher4.compat.LauncherAppsCompatVO;
+import com.android.launcher4.compat.ShortcutConfigActivityInfo;
 
 /**
  * Extension of ShortcutConfigActivityInfo to be used in the confirmation prompt for pin item
@@ -80,7 +80,7 @@ class PinShortcutRequestActivityInfo extends ShortcutConfigActivityInfo {
     }
 
     @Override
-    public com.android.launcher3.ShortcutInfo createShortcutInfo() {
+    public com.android.launcher4.ShortcutInfo createShortcutInfo() {
         // Total duration for the drop animation to complete.
         long duration = mContext.getResources().getInteger(R.integer.config_dropAnimMaxDuration) +
                 LauncherAnimUtils.SPRING_LOADED_EXIT_DELAY +

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.shortcuts;
+package com.android.launcher4.shortcuts;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -24,9 +24,9 @@ import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.widget.Toast;
 
-import com.android.launcher3.BubbleTextView;
-import com.android.launcher3.R;
-import com.android.launcher3.Utilities;
+import com.android.launcher4.BubbleTextView;
+import com.android.launcher4.R;
+import com.android.launcher4.Utilities;
 
 /**
  * A {@link BubbleTextView} that has the shortcut icon on the left and drag handle on the right.

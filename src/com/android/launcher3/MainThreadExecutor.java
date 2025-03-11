@@ -14,11 +14,11 @@
  * limitations under the License
  */
 
-package com.android.launcher3;
+package com.android.launcher4;
 
 import android.os.Looper;
 
-import com.android.launcher3.util.LooperExecutor;
+import com.android.launcher4.util.LooperExecutor;
 
 /**
  * An executor service that executes its tasks on the main thread.

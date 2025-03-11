@@ -1,15 +1,15 @@
-package com.android.launcher3.model;
+package com.android.launcher4.model;
 
 import android.content.pm.ActivityInfo;
 import android.content.pm.PackageManager;
 import android.os.Process;
 import android.os.UserHandle;
 
-import com.android.launcher3.InvariantDeviceProfile;
-import com.android.launcher3.LauncherAppWidgetProviderInfo;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.compat.ShortcutConfigActivityInfo;
-import com.android.launcher3.util.ComponentKey;
+import com.android.launcher4.InvariantDeviceProfile;
+import com.android.launcher4.LauncherAppWidgetProviderInfo;
+import com.android.launcher4.Utilities;
+import com.android.launcher4.compat.ShortcutConfigActivityInfo;
+import com.android.launcher4.util.ComponentKey;
 
 import java.text.Collator;
 

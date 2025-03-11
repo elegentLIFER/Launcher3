@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.util;
+package com.android.launcher4.util;
 
 import android.content.Context;
 import android.content.pm.ApplicationInfo;
 import android.content.pm.PackageManager;
 import android.util.Log;
 
-import com.android.launcher3.AppInfo;
-import com.android.launcher3.R;
-import com.android.launcher3.Utilities;
+import com.android.launcher4.AppInfo;
+import com.android.launcher4.R;
+import com.android.launcher4.Utilities;
 
 import java.util.Collections;
 import java.util.List;

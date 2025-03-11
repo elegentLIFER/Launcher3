@@ -1,4 +1,4 @@
-package com.android.launcher3.util;
+package com.android.launcher4.util;
 
 import android.support.test.filters.SmallTest;
 import android.support.test.runner.AndroidJUnit4;

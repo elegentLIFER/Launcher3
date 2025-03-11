@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.compat;
+package com.android.launcher4.compat;
 
 import android.content.Context;
 import android.content.pm.ApplicationInfo;
@@ -27,11 +27,11 @@ import android.os.UserHandle;
 import android.text.TextUtils;
 import android.util.SparseArray;
 
-import com.android.launcher3.IconCache;
-import com.android.launcher3.LauncherAppState;
-import com.android.launcher3.LauncherModel;
-import com.android.launcher3.config.FeatureFlags;
-import com.android.launcher3.util.Thunk;
+import com.android.launcher4.IconCache;
+import com.android.launcher4.LauncherAppState;
+import com.android.launcher4.LauncherModel;
+import com.android.launcher4.config.FeatureFlags;
+import com.android.launcher4.util.Thunk;
 
 import java.util.ArrayList;
 import java.util.HashMap;

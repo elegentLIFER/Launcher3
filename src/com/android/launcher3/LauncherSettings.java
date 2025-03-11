@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3;
+package com.android.launcher4;
 
 import android.content.ContentResolver;
 import android.database.sqlite.SQLiteDatabase;

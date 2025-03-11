@@ -13,25 +13,25 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.android.launcher3.model;
+package com.android.launcher4.model;
 
 import android.content.ComponentName;
 import android.content.pm.ApplicationInfo;
 import android.content.pm.PackageManager;
 import android.os.Process;
 
-import com.android.launcher3.AllAppsList;
-import com.android.launcher3.AppInfo;
-import com.android.launcher3.ItemInfo;
-import com.android.launcher3.LauncherAppState;
-import com.android.launcher3.LauncherAppWidgetInfo;
-import com.android.launcher3.LauncherModel.CallbackTask;
-import com.android.launcher3.LauncherModel.Callbacks;
-import com.android.launcher3.PromiseAppInfo;
-import com.android.launcher3.ShortcutInfo;
-import com.android.launcher3.compat.PackageInstallerCompat;
-import com.android.launcher3.compat.PackageInstallerCompat.PackageInstallInfo;
-import com.android.launcher3.util.InstantAppResolver;
+import com.android.launcher4.AllAppsList;
+import com.android.launcher4.AppInfo;
+import com.android.launcher4.ItemInfo;
+import com.android.launcher4.LauncherAppState;
+import com.android.launcher4.LauncherAppWidgetInfo;
+import com.android.launcher4.LauncherModel.CallbackTask;
+import com.android.launcher4.LauncherModel.Callbacks;
+import com.android.launcher4.PromiseAppInfo;
+import com.android.launcher4.ShortcutInfo;
+import com.android.launcher4.compat.PackageInstallerCompat;
+import com.android.launcher4.compat.PackageInstallerCompat.PackageInstallInfo;
+import com.android.launcher4.util.InstantAppResolver;
 
 import java.util.ArrayList;
 import java.util.HashSet;

@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.android.launcher3.util;
+package com.android.launcher4.util;
 
 import android.animation.AnimatorSet;
 import android.annotation.TargetApi;
@@ -26,7 +26,7 @@ import java.util.function.Consumer;
  * Utility class to keep track of a running animation.
  *
  * This class allows attaching end callbacks to an animation is intended to be used with
- * {@link com.android.launcher3.anim.AnimatorPlaybackController}, since in that case
+ * {@link com.android.launcher4.anim.AnimatorPlaybackController}, since in that case
  * AnimationListeners are not properly dispatched.
  */
 @TargetApi(Build.VERSION_CODES.O)

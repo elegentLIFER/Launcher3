@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.android.launcher3;
+package com.android.launcher4;
 
-import static com.android.launcher3.ButtonDropTarget.TOOLTIP_DEFAULT;
-import static com.android.launcher3.ButtonDropTarget.TOOLTIP_LEFT;
-import static com.android.launcher3.ButtonDropTarget.TOOLTIP_RIGHT;
-import static com.android.launcher3.anim.AlphaUpdateListener.updateVisibility;
+import static com.android.launcher4.ButtonDropTarget.TOOLTIP_DEFAULT;
+import static com.android.launcher4.ButtonDropTarget.TOOLTIP_LEFT;
+import static com.android.launcher4.ButtonDropTarget.TOOLTIP_RIGHT;
+import static com.android.launcher4.anim.AlphaUpdateListener.updateVisibility;
 
 import android.animation.TimeInterpolator;
 import android.content.Context;
@@ -31,10 +31,10 @@ import android.view.ViewDebug;
 import android.view.ViewPropertyAnimator;
 import android.widget.FrameLayout;
 
-import com.android.launcher3.anim.Interpolators;
-import com.android.launcher3.dragndrop.DragController;
-import com.android.launcher3.dragndrop.DragController.DragListener;
-import com.android.launcher3.dragndrop.DragOptions;
+import com.android.launcher4.anim.Interpolators;
+import com.android.launcher4.dragndrop.DragController;
+import com.android.launcher4.dragndrop.DragController.DragListener;
+import com.android.launcher4.dragndrop.DragOptions;
 
 /*
  * The top bar containing various drop targets: Delete/App Info/Uninstall.

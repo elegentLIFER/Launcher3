@@ -13,22 +13,22 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.android.launcher3.states;
+package com.android.launcher4.states;
 
 import static android.content.pm.ActivityInfo.SCREEN_ORIENTATION_LOCKED;
 import static android.content.pm.ActivityInfo.SCREEN_ORIENTATION_NOSENSOR;
 import static android.content.pm.ActivityInfo.SCREEN_ORIENTATION_UNSPECIFIED;
 import static android.util.DisplayMetrics.DENSITY_DEVICE_STABLE;
 
-import static com.android.launcher3.Utilities.ATLEAST_NOUGAT;
+import static com.android.launcher4.Utilities.ATLEAST_NOUGAT;
 
 import android.app.Activity;
 import android.content.SharedPreferences;
 import android.content.SharedPreferences.OnSharedPreferenceChangeListener;
 import android.content.res.Resources;
 
-import com.android.launcher3.R;
-import com.android.launcher3.Utilities;
+import com.android.launcher4.R;
+import com.android.launcher4.Utilities;
 
 /**
  * Utility class to manage launcher rotation

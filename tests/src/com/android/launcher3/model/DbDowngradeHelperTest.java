@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.android.launcher3.model;
+package com.android.launcher4.model;
 
 import static junit.framework.Assert.assertEquals;
 import static junit.framework.Assert.assertFalse;
@@ -29,10 +29,10 @@ import android.support.test.InstrumentationRegistry;
 import android.support.test.filters.SmallTest;
 import android.support.test.runner.AndroidJUnit4;
 
-import com.android.launcher3.LauncherProvider;
-import com.android.launcher3.LauncherProvider.DatabaseHelper;
-import com.android.launcher3.LauncherSettings.Favorites;
-import com.android.launcher3.R;
+import com.android.launcher4.LauncherProvider;
+import com.android.launcher4.LauncherProvider.DatabaseHelper;
+import com.android.launcher4.LauncherSettings.Favorites;
+import com.android.launcher4.R;
 
 import org.junit.Before;
 import org.junit.Test;

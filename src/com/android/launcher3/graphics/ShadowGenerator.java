@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.graphics;
+package com.android.launcher4.graphics;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -29,7 +29,7 @@ import android.graphics.PorterDuffXfermode;
 import android.graphics.RectF;
 import android.support.v4.graphics.ColorUtils;
 
-import com.android.launcher3.LauncherAppState;
+import com.android.launcher4.LauncherAppState;
 
 /**
  * Utility class to add shadows to bitmaps.

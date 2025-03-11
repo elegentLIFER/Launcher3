@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.android.launcher3.allapps;
+package com.android.launcher4.allapps;
 
 import android.animation.ValueAnimator;
 import android.content.Context;
@@ -29,8 +29,8 @@ import android.view.ViewGroup;
 import android.view.animation.Interpolator;
 import android.widget.LinearLayout;
 
-import com.android.launcher3.R;
-import com.android.launcher3.anim.PropertySetter;
+import com.android.launcher4.R;
+import com.android.launcher4.anim.PropertySetter;
 
 public class FloatingHeaderView extends LinearLayout implements
         ValueAnimator.AnimatorUpdateListener {

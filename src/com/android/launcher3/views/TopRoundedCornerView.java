@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.android.launcher3.views;
+package com.android.launcher4.views;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -23,8 +23,8 @@ import android.graphics.RectF;
 import android.util.AttributeSet;
 import android.widget.FrameLayout;
 
-import com.android.launcher3.R;
-import com.android.launcher3.util.Themes;
+import com.android.launcher4.R;
+import com.android.launcher4.util.Themes;
 
 /**
  * View with top rounded corners.

@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.accessibility;
+package com.android.launcher4.accessibility;
 
-import com.android.launcher3.CellLayout;
-import com.android.launcher3.R;
-import com.android.launcher3.folder.FolderPagedView;
+import com.android.launcher4.CellLayout;
+import com.android.launcher4.R;
+import com.android.launcher4.folder.FolderPagedView;
 
 /**
  * Implementation of {@link DragAndDropAccessibilityDelegate} to support DnD in a folder.

@@ -1,8 +1,8 @@
-package com.android.launcher3;
+package com.android.launcher4;
 
 import android.view.View;
 
-import com.android.launcher3.userevent.nano.LauncherLogProto.Action;
+import com.android.launcher4.userevent.nano.LauncherLogProto.Action;
 
 /**
  * A specialized listener for Overview buttons where both clicks and long clicks are logged

@@ -1,24 +1,24 @@
-package com.android.launcher3.popup;
+package com.android.launcher4.popup;
 
-import static com.android.launcher3.userevent.nano.LauncherLogProto.Action;
-import static com.android.launcher3.userevent.nano.LauncherLogProto.ControlType;
+import static com.android.launcher4.userevent.nano.LauncherLogProto.Action;
+import static com.android.launcher4.userevent.nano.LauncherLogProto.ControlType;
 
 import android.content.Intent;
 import android.graphics.Rect;
 import android.os.Bundle;
 import android.view.View;
 
-import com.android.launcher3.AbstractFloatingView;
-import com.android.launcher3.BaseDraggingActivity;
-import com.android.launcher3.ItemInfo;
-import com.android.launcher3.Launcher;
-import com.android.launcher3.R;
-import com.android.launcher3.ShortcutInfo;
-import com.android.launcher3.model.WidgetItem;
-import com.android.launcher3.util.InstantAppResolver;
-import com.android.launcher3.util.PackageManagerHelper;
-import com.android.launcher3.util.PackageUserKey;
-import com.android.launcher3.widget.WidgetsBottomSheet;
+import com.android.launcher4.AbstractFloatingView;
+import com.android.launcher4.BaseDraggingActivity;
+import com.android.launcher4.ItemInfo;
+import com.android.launcher4.Launcher;
+import com.android.launcher4.R;
+import com.android.launcher4.ShortcutInfo;
+import com.android.launcher4.model.WidgetItem;
+import com.android.launcher4.util.InstantAppResolver;
+import com.android.launcher4.util.PackageManagerHelper;
+import com.android.launcher4.util.PackageUserKey;
+import com.android.launcher4.widget.WidgetsBottomSheet;
 
 import java.util.List;
 
@@ -97,8 +97,8 @@ public abstract class SystemShortcut<T extends BaseDraggingActivity> extends Ite
             boolean supportsWebUI = (itemInfo instanceof ShortcutInfo) &&
                     ((ShortcutInfo) itemInfo).hasStatusFlag(ShortcutInfo.FLAG_SUPPORTS_WEB_UI);
             boolean isInstantApp = false;
-            if (itemInfo instanceof com.android.launcher3.AppInfo) {
-                com.android.launcher3.AppInfo appInfo = (com.android.launcher3.AppInfo) itemInfo;
+            if (itemInfo instanceof com.android.launcher4.AppInfo) {
+                com.android.launcher4.AppInfo appInfo = (com.android.launcher4.AppInfo) itemInfo;
                 isInstantApp = InstantAppResolver.newInstance(activity).isInstantApp(appInfo);
             }
             boolean enabled = supportsWebUI || isInstantApp;

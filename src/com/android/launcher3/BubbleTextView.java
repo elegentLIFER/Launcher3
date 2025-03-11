@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3;
+package com.android.launcher4;
 
 import android.animation.ObjectAnimator;
 import android.content.Context;
@@ -39,16 +39,16 @@ import android.view.ViewConfiguration;
 import android.view.ViewDebug;
 import android.widget.TextView;
 
-import com.android.launcher3.IconCache.IconLoadRequest;
-import com.android.launcher3.IconCache.ItemInfoUpdateReceiver;
-import com.android.launcher3.Launcher.OnResumeCallback;
-import com.android.launcher3.badge.BadgeInfo;
-import com.android.launcher3.badge.BadgeRenderer;
-import com.android.launcher3.folder.FolderIcon;
-import com.android.launcher3.graphics.DrawableFactory;
-import com.android.launcher3.graphics.IconPalette;
-import com.android.launcher3.graphics.PreloadIconDrawable;
-import com.android.launcher3.model.PackageItemInfo;
+import com.android.launcher4.IconCache.IconLoadRequest;
+import com.android.launcher4.IconCache.ItemInfoUpdateReceiver;
+import com.android.launcher4.Launcher.OnResumeCallback;
+import com.android.launcher4.badge.BadgeInfo;
+import com.android.launcher4.badge.BadgeRenderer;
+import com.android.launcher4.folder.FolderIcon;
+import com.android.launcher4.graphics.DrawableFactory;
+import com.android.launcher4.graphics.IconPalette;
+import com.android.launcher4.graphics.PreloadIconDrawable;
+import com.android.launcher4.model.PackageItemInfo;
 
 import java.text.NumberFormat;
 

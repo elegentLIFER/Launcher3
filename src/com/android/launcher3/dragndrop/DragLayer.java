@@ -15,9 +15,9 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.dragndrop;
+package com.android.launcher4.dragndrop;
 
-import static com.android.launcher3.compat.AccessibilityManagerCompat.sendCustomAccessibilityEvent;
+import static com.android.launcher4.compat.AccessibilityManagerCompat.sendCustomAccessibilityEvent;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -37,22 +37,22 @@ import android.view.accessibility.AccessibilityManager;
 import android.view.animation.Interpolator;
 import android.widget.TextView;
 
-import com.android.launcher3.AbstractFloatingView;
-import com.android.launcher3.CellLayout;
-import com.android.launcher3.DropTargetBar;
-import com.android.launcher3.Launcher;
-import com.android.launcher3.R;
-import com.android.launcher3.ShortcutAndWidgetContainer;
-import com.android.launcher3.Workspace;
-import com.android.launcher3.anim.Interpolators;
-import com.android.launcher3.folder.Folder;
-import com.android.launcher3.folder.FolderIcon;
-import com.android.launcher3.graphics.ViewScrim;
-import com.android.launcher3.graphics.WorkspaceAndHotseatScrim;
-import com.android.launcher3.keyboard.ViewGroupFocusHelper;
-import com.android.launcher3.uioverrides.UiFactory;
-import com.android.launcher3.util.Thunk;
-import com.android.launcher3.views.BaseDragLayer;
+import com.android.launcher4.AbstractFloatingView;
+import com.android.launcher4.CellLayout;
+import com.android.launcher4.DropTargetBar;
+import com.android.launcher4.Launcher;
+import com.android.launcher4.R;
+import com.android.launcher4.ShortcutAndWidgetContainer;
+import com.android.launcher4.Workspace;
+import com.android.launcher4.anim.Interpolators;
+import com.android.launcher4.folder.Folder;
+import com.android.launcher4.folder.FolderIcon;
+import com.android.launcher4.graphics.ViewScrim;
+import com.android.launcher4.graphics.WorkspaceAndHotseatScrim;
+import com.android.launcher4.keyboard.ViewGroupFocusHelper;
+import com.android.launcher4.uioverrides.UiFactory;
+import com.android.launcher4.util.Thunk;
+import com.android.launcher4.views.BaseDragLayer;
 
 import java.util.ArrayList;
 

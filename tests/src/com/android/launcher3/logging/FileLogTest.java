@@ -1,4 +1,4 @@
-package com.android.launcher3.logging;
+package com.android.launcher4.logging;
 
 import android.support.test.InstrumentationRegistry;
 import android.support.test.filters.SmallTest;

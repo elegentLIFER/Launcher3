@@ -13,13 +13,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.android.launcher3.allapps.search;
+package com.android.launcher4.allapps.search;
 
 import static android.view.View.MeasureSpec.EXACTLY;
 import static android.view.View.MeasureSpec.getSize;
 import static android.view.View.MeasureSpec.makeMeasureSpec;
 
-import static com.android.launcher3.graphics.IconNormalizer.ICON_VISIBLE_AREA_FACTOR;
+import static com.android.launcher4.graphics.IconNormalizer.ICON_VISIBLE_AREA_FACTOR;
 
 import android.content.Context;
 import android.graphics.Rect;
@@ -33,17 +33,17 @@ import android.view.KeyEvent;
 import android.view.View;
 import android.view.ViewGroup.MarginLayoutParams;
 
-import com.android.launcher3.DeviceProfile;
-import com.android.launcher3.ExtendedEditText;
-import com.android.launcher3.Insettable;
-import com.android.launcher3.Launcher;
-import com.android.launcher3.R;
-import com.android.launcher3.allapps.AllAppsContainerView;
-import com.android.launcher3.allapps.AllAppsStore;
-import com.android.launcher3.allapps.AlphabeticalAppsList;
-import com.android.launcher3.allapps.SearchUiManager;
-import com.android.launcher3.graphics.TintedDrawableSpan;
-import com.android.launcher3.util.ComponentKey;
+import com.android.launcher4.DeviceProfile;
+import com.android.launcher4.ExtendedEditText;
+import com.android.launcher4.Insettable;
+import com.android.launcher4.Launcher;
+import com.android.launcher4.R;
+import com.android.launcher4.allapps.AllAppsContainerView;
+import com.android.launcher4.allapps.AllAppsStore;
+import com.android.launcher4.allapps.AlphabeticalAppsList;
+import com.android.launcher4.allapps.SearchUiManager;
+import com.android.launcher4.graphics.TintedDrawableSpan;
+import com.android.launcher4.util.ComponentKey;
 
 import java.util.ArrayList;
 

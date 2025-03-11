@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.android.launcher3.util;
+package com.android.launcher4.util;
 
 import static android.util.Log.VERBOSE;
 import static android.util.Log.isLoggable;
@@ -24,7 +24,7 @@ import android.util.ArrayMap;
 import android.util.Log;
 import android.util.MutableLong;
 
-import com.android.launcher3.config.FeatureFlags;
+import com.android.launcher4.config.FeatureFlags;
 
 /**
  * A wrapper around {@link Trace} to allow easier proguarding for production builds.

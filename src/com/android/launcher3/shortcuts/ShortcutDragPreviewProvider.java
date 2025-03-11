@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.shortcuts;
+package com.android.launcher4.shortcuts;
 
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
@@ -23,9 +23,9 @@ import android.graphics.Rect;
 import android.graphics.drawable.Drawable;
 import android.view.View;
 
-import com.android.launcher3.Launcher;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.graphics.DragPreviewProvider;
+import com.android.launcher4.Launcher;
+import com.android.launcher4.Utilities;
+import com.android.launcher4.graphics.DragPreviewProvider;
 
 /**
  * Extension of {@link DragPreviewProvider} which generates bitmaps scaled to the default icon size.

@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.android.launcher3.allapps;
+package com.android.launcher4.allapps;
 
 import android.animation.ValueAnimator;
 import android.content.Context;
@@ -38,25 +38,25 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.android.launcher3.AppInfo;
-import com.android.launcher3.DeviceProfile;
-import com.android.launcher3.DeviceProfile.OnDeviceProfileChangeListener;
-import com.android.launcher3.DragSource;
-import com.android.launcher3.DropTarget.DragObject;
-import com.android.launcher3.Insettable;
-import com.android.launcher3.InsettableFrameLayout;
-import com.android.launcher3.ItemInfo;
-import com.android.launcher3.Launcher;
-import com.android.launcher3.R;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.config.FeatureFlags;
-import com.android.launcher3.keyboard.FocusedItemDecorator;
-import com.android.launcher3.userevent.nano.LauncherLogProto.Target;
-import com.android.launcher3.util.ItemInfoMatcher;
-import com.android.launcher3.util.Themes;
-import com.android.launcher3.views.BottomUserEducationView;
-import com.android.launcher3.views.RecyclerViewFastScroller;
-import com.android.launcher3.views.SpringRelativeLayout;
+import com.android.launcher4.AppInfo;
+import com.android.launcher4.DeviceProfile;
+import com.android.launcher4.DeviceProfile.OnDeviceProfileChangeListener;
+import com.android.launcher4.DragSource;
+import com.android.launcher4.DropTarget.DragObject;
+import com.android.launcher4.Insettable;
+import com.android.launcher4.InsettableFrameLayout;
+import com.android.launcher4.ItemInfo;
+import com.android.launcher4.Launcher;
+import com.android.launcher4.R;
+import com.android.launcher4.Utilities;
+import com.android.launcher4.config.FeatureFlags;
+import com.android.launcher4.keyboard.FocusedItemDecorator;
+import com.android.launcher4.userevent.nano.LauncherLogProto.Target;
+import com.android.launcher4.util.ItemInfoMatcher;
+import com.android.launcher4.util.Themes;
+import com.android.launcher4.views.BottomUserEducationView;
+import com.android.launcher4.views.RecyclerViewFastScroller;
+import com.android.launcher4.views.SpringRelativeLayout;
 
 /**
  * The all apps view container.

@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.android.launcher3.allapps;
+package com.android.launcher4.allapps;
 
 import android.content.Context;
 import android.content.Intent;
@@ -32,15 +32,15 @@ import android.view.ViewGroup;
 import android.view.accessibility.AccessibilityEvent;
 import android.widget.TextView;
 
-import com.android.launcher3.AppInfo;
-import com.android.launcher3.BubbleTextView;
-import com.android.launcher3.Launcher;
-import com.android.launcher3.R;
-import com.android.launcher3.allapps.AlphabeticalAppsList.AdapterItem;
-import com.android.launcher3.compat.UserManagerCompat;
-import com.android.launcher3.touch.ItemClickHandler;
-import com.android.launcher3.touch.ItemLongClickListener;
-import com.android.launcher3.util.PackageManagerHelper;
+import com.android.launcher4.AppInfo;
+import com.android.launcher4.BubbleTextView;
+import com.android.launcher4.Launcher;
+import com.android.launcher4.R;
+import com.android.launcher4.allapps.AlphabeticalAppsList.AdapterItem;
+import com.android.launcher4.compat.UserManagerCompat;
+import com.android.launcher4.touch.ItemClickHandler;
+import com.android.launcher4.touch.ItemLongClickListener;
+import com.android.launcher4.util.PackageManagerHelper;
 
 import java.util.List;
 
@@ -199,7 +199,8 @@ public class AllAppsGridAdapter extends RecyclerView.Adapter<AllAppsGridAdapter.
         mGridLayoutMgr.setSpanSizeLookup(mGridSizer);
         mLayoutInflater = LayoutInflater.from(launcher);
 
-        mAppsPerRow = mLauncher.getDeviceProfile().inv.numColumns;
+//        mAppsPerRow = mLauncher.getDeviceProfile().inv.numColumns;
+        mAppsPerRow = 4;
         mGridLayoutMgr.setSpanCount(mAppsPerRow);
     }
 

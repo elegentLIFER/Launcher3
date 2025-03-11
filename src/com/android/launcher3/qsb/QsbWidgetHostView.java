@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.qsb;
+package com.android.launcher4.qsb;
 
 import android.appwidget.AppWidgetHostView;
 import android.content.Context;
@@ -24,8 +24,8 @@ import android.view.ViewDebug;
 import android.view.ViewGroup;
 import android.widget.RemoteViews;
 
-import com.android.launcher3.Launcher;
-import com.android.launcher3.R;
+import com.android.launcher4.Launcher;
+import com.android.launcher4.R;
 
 /**
  * Appwidget host view with QSB specific logic.

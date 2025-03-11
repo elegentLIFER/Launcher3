@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.widget;
+package com.android.launcher4.widget;
 
 import android.appwidget.AppWidgetHostView;
 import android.appwidget.AppWidgetProviderInfo;
@@ -37,17 +37,17 @@ import android.widget.AdapterView;
 import android.widget.Advanceable;
 import android.widget.RemoteViews;
 
-import com.android.launcher3.CheckLongPressHelper;
-import com.android.launcher3.ItemInfo;
-import com.android.launcher3.Launcher;
-import com.android.launcher3.LauncherAppWidgetInfo;
-import com.android.launcher3.LauncherAppWidgetProviderInfo;
-import com.android.launcher3.R;
-import com.android.launcher3.SimpleOnStylusPressListener;
-import com.android.launcher3.StylusEventHelper;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.dragndrop.DragLayer;
-import com.android.launcher3.views.BaseDragLayer.TouchCompleteListener;
+import com.android.launcher4.CheckLongPressHelper;
+import com.android.launcher4.ItemInfo;
+import com.android.launcher4.Launcher;
+import com.android.launcher4.LauncherAppWidgetInfo;
+import com.android.launcher4.LauncherAppWidgetProviderInfo;
+import com.android.launcher4.R;
+import com.android.launcher4.SimpleOnStylusPressListener;
+import com.android.launcher4.StylusEventHelper;
+import com.android.launcher4.Utilities;
+import com.android.launcher4.dragndrop.DragLayer;
+import com.android.launcher4.views.BaseDragLayer.TouchCompleteListener;
 
 import java.util.ArrayList;
 

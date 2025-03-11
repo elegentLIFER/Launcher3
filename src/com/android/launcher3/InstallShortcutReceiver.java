@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3;
+package com.android.launcher4;
 
 import android.appwidget.AppWidgetManager;
 import android.appwidget.AppWidgetProviderInfo;
@@ -38,17 +38,17 @@ import android.util.Base64;
 import android.util.Log;
 import android.util.Pair;
 
-import com.android.launcher3.compat.LauncherAppsCompat;
-import com.android.launcher3.compat.UserManagerCompat;
-import com.android.launcher3.graphics.BitmapInfo;
-import com.android.launcher3.graphics.LauncherIcons;
-import com.android.launcher3.shortcuts.DeepShortcutManager;
-import com.android.launcher3.shortcuts.ShortcutInfoCompat;
-import com.android.launcher3.shortcuts.ShortcutKey;
-import com.android.launcher3.util.PackageManagerHelper;
-import com.android.launcher3.util.Preconditions;
-import com.android.launcher3.util.Provider;
-import com.android.launcher3.util.Thunk;
+import com.android.launcher4.compat.LauncherAppsCompat;
+import com.android.launcher4.compat.UserManagerCompat;
+import com.android.launcher4.graphics.BitmapInfo;
+import com.android.launcher4.graphics.LauncherIcons;
+import com.android.launcher4.shortcuts.DeepShortcutManager;
+import com.android.launcher4.shortcuts.ShortcutInfoCompat;
+import com.android.launcher4.shortcuts.ShortcutKey;
+import com.android.launcher4.util.PackageManagerHelper;
+import com.android.launcher4.util.Preconditions;
+import com.android.launcher4.util.Provider;
+import com.android.launcher4.util.Thunk;
 
 import org.json.JSONException;
 import org.json.JSONObject;

@@ -13,12 +13,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.android.launcher3.uioverrides.dynamicui;
+package com.android.launcher4.uioverrides.dynamicui;
 
 import static android.app.WallpaperManager.FLAG_SYSTEM;
 
-import static com.android.launcher3.Utilities.getDevicePrefs;
-import static com.android.launcher3.graphics.ColorExtractor.findDominantColorByHue;
+import static com.android.launcher4.Utilities.getDevicePrefs;
+import static com.android.launcher4.graphics.ColorExtractor.findDominantColorByHue;
 
 import android.app.WallpaperInfo;
 import android.app.WallpaperManager;
@@ -46,7 +46,7 @@ import android.support.annotation.Nullable;
 import android.util.Log;
 import android.util.Pair;
 
-import com.android.launcher3.Utilities;
+import com.android.launcher4.Utilities;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -58,7 +58,7 @@ public class WallpaperManagerCompatVL extends WallpaperManagerCompat {
     private static final String VERSION_PREFIX = "1,";
     private static final String KEY_COLORS = "wallpaper_parsed_colors";
     private static final String ACTION_EXTRACTION_COMPLETE =
-            "com.android.launcher3.uioverrides.dynamicui.WallpaperManagerCompatVL.EXTRACTION_COMPLETE";
+            "com.android.launcher4.uioverrides.dynamicui.WallpaperManagerCompatVL.EXTRACTION_COMPLETE";
 
     private final ArrayList<OnColorsChangedListenerCompat> mListeners = new ArrayList<>();
 

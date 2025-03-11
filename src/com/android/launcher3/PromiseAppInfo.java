@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package com.android.launcher3;
+package com.android.launcher4;
 
 import android.content.Context;
 import android.content.Intent;
 import android.support.annotation.NonNull;
 
-import com.android.launcher3.compat.PackageInstallerCompat;
-import com.android.launcher3.util.PackageManagerHelper;
+import com.android.launcher4.compat.PackageInstallerCompat;
+import com.android.launcher4.util.PackageManagerHelper;
 
 public class PromiseAppInfo extends AppInfo {
 

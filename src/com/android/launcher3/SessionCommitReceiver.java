@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3;
+package com.android.launcher4;
 
 import android.annotation.TargetApi;
 import android.content.BroadcastReceiver;
@@ -36,7 +36,7 @@ import android.provider.Settings;
 import android.text.TextUtils;
 import android.util.Log;
 
-import com.android.launcher3.compat.LauncherAppsCompat;
+import com.android.launcher4.compat.LauncherAppsCompat;
 
 import java.util.List;
 

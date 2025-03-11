@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.notification;
+package com.android.launcher4.notification;
 
 import android.app.ActivityOptions;
 import android.app.Notification;
@@ -27,16 +27,16 @@ import android.os.Bundle;
 import android.service.notification.StatusBarNotification;
 import android.view.View;
 
-import com.android.launcher3.AbstractFloatingView;
-import com.android.launcher3.Launcher;
-import com.android.launcher3.LauncherAppState;
-import com.android.launcher3.graphics.IconPalette;
-import com.android.launcher3.util.PackageUserKey;
+import com.android.launcher4.AbstractFloatingView;
+import com.android.launcher4.Launcher;
+import com.android.launcher4.LauncherAppState;
+import com.android.launcher4.graphics.IconPalette;
+import com.android.launcher4.util.PackageUserKey;
 
 /**
  * An object that contains relevant information from a {@link StatusBarNotification}. This should
  * only be created when we need to show the notification contents on the UI; until then, a
- * {@link com.android.launcher3.badge.BadgeInfo} with only the notification key should
+ * {@link com.android.launcher4.badge.BadgeInfo} with only the notification key should
  * be passed around, and then this can be constructed using the StatusBarNotification from
  * {@link NotificationListener#getNotificationsForKeys(java.util.List)}.
  */

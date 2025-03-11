@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.util;
+package com.android.launcher4.util;
 
 import android.os.Looper;
 
-import com.android.launcher3.LauncherModel;
-import com.android.launcher3.config.FeatureFlags;
+import com.android.launcher4.LauncherModel;
+import com.android.launcher4.config.FeatureFlags;
 
 /**
  * A set of utility methods for thread verification.

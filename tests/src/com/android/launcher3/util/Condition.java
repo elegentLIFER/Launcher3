@@ -1,8 +1,8 @@
-package com.android.launcher3.util;
+package com.android.launcher4.util;
 
 import android.support.test.uiautomator.UiObject2;
 
-import com.android.launcher3.MainThreadExecutor;
+import com.android.launcher4.MainThreadExecutor;
 
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.TimeUnit;

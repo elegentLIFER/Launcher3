@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.provider;
+package com.android.launcher4.provider;
 
-import static com.android.launcher3.Utilities.getDevicePrefs;
+import static com.android.launcher4.Utilities.getDevicePrefs;
 
 import android.content.ContentProviderOperation;
 import android.content.ContentValues;
@@ -34,23 +34,23 @@ import android.text.TextUtils;
 import android.util.ArrayMap;
 import android.util.LongSparseArray;
 import android.util.SparseBooleanArray;
-import com.android.launcher3.AutoInstallsLayout.LayoutParserCallback;
-import com.android.launcher3.DefaultLayoutParser;
-import com.android.launcher3.LauncherAppState;
-import com.android.launcher3.LauncherAppWidgetInfo;
-import com.android.launcher3.LauncherProvider;
-import com.android.launcher3.LauncherSettings;
-import com.android.launcher3.LauncherSettings.Favorites;
-import com.android.launcher3.LauncherSettings.Settings;
-import com.android.launcher3.LauncherSettings.WorkspaceScreens;
-import com.android.launcher3.R;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.Workspace;
-import com.android.launcher3.compat.UserManagerCompat;
-import com.android.launcher3.config.FeatureFlags;
-import com.android.launcher3.logging.FileLog;
-import com.android.launcher3.model.GridSizeMigrationTask;
-import com.android.launcher3.util.LongArrayMap;
+import com.android.launcher4.AutoInstallsLayout.LayoutParserCallback;
+import com.android.launcher4.DefaultLayoutParser;
+import com.android.launcher4.LauncherAppState;
+import com.android.launcher4.LauncherAppWidgetInfo;
+import com.android.launcher4.LauncherProvider;
+import com.android.launcher4.LauncherSettings;
+import com.android.launcher4.LauncherSettings.Favorites;
+import com.android.launcher4.LauncherSettings.Settings;
+import com.android.launcher4.LauncherSettings.WorkspaceScreens;
+import com.android.launcher4.R;
+import com.android.launcher4.Utilities;
+import com.android.launcher4.Workspace;
+import com.android.launcher4.compat.UserManagerCompat;
+import com.android.launcher4.config.FeatureFlags;
+import com.android.launcher4.logging.FileLog;
+import com.android.launcher4.model.GridSizeMigrationTask;
+import com.android.launcher4.util.LongArrayMap;
 import java.net.URISyntaxException;
 import java.util.ArrayList;
 import java.util.HashSet;

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.badge;
+package com.android.launcher4.badge;
 
 import static android.graphics.Paint.ANTI_ALIAS_FLAG;
 import static android.graphics.Paint.FILTER_BITMAP_FLAG;
@@ -27,7 +27,7 @@ import android.graphics.Point;
 import android.graphics.Rect;
 import android.util.Log;
 
-import com.android.launcher3.graphics.ShadowGenerator;
+import com.android.launcher4.graphics.ShadowGenerator;
 
 /**
  * Contains parameters necessary to draw a badge for an icon (e.g. the size of the badge).

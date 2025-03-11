@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.android.launcher3;
+package com.android.launcher4;
 
-import static com.android.launcher3.util.SystemUiController.UI_STATE_OVERVIEW;
+import static com.android.launcher4.util.SystemUiController.UI_STATE_OVERVIEW;
 
 import static java.lang.annotation.RetentionPolicy.SOURCE;
 
@@ -28,12 +28,12 @@ import android.content.res.Configuration;
 import android.support.annotation.IntDef;
 import android.view.View.AccessibilityDelegate;
 
-import com.android.launcher3.DeviceProfile.OnDeviceProfileChangeListener;
-import com.android.launcher3.logging.UserEventDispatcher;
-import com.android.launcher3.logging.UserEventDispatcher.UserEventDelegate;
-import com.android.launcher3.uioverrides.UiFactory;
-import com.android.launcher3.userevent.nano.LauncherLogProto;
-import com.android.launcher3.util.SystemUiController;
+import com.android.launcher4.DeviceProfile.OnDeviceProfileChangeListener;
+import com.android.launcher4.logging.UserEventDispatcher;
+import com.android.launcher4.logging.UserEventDispatcher.UserEventDelegate;
+import com.android.launcher4.uioverrides.UiFactory;
+import com.android.launcher4.userevent.nano.LauncherLogProto;
+import com.android.launcher4.util.SystemUiController;
 
 import java.io.FileDescriptor;
 import java.io.PrintWriter;

@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.keyboard;
+package com.android.launcher4.keyboard;
 
 import android.graphics.Rect;
 import android.view.View;
 
-import com.android.launcher3.PagedView;
+import com.android.launcher4.PagedView;
 
 /**
  * {@link FocusIndicatorHelper} for a generic view group.

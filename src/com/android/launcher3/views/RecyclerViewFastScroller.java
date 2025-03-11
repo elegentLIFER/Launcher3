@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.views;
+package com.android.launcher4.views;
 
 import android.animation.ObjectAnimator;
 import android.content.Context;
@@ -32,12 +32,12 @@ import android.view.View;
 import android.view.ViewConfiguration;
 import android.widget.TextView;
 
-import com.android.launcher3.BaseRecyclerView;
-import com.android.launcher3.R;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.config.FeatureFlags;
-import com.android.launcher3.graphics.FastScrollThumbDrawable;
-import com.android.launcher3.util.Themes;
+import com.android.launcher4.BaseRecyclerView;
+import com.android.launcher4.R;
+import com.android.launcher4.Utilities;
+import com.android.launcher4.config.FeatureFlags;
+import com.android.launcher4.graphics.FastScrollThumbDrawable;
+import com.android.launcher4.util.Themes;
 
 /**
  * The track and scrollbar that shows when you scroll the list.

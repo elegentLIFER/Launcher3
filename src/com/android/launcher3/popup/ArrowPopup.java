@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.popup;
+package com.android.launcher4.popup;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -37,16 +37,16 @@ import android.view.ViewGroup;
 import android.view.ViewOutlineProvider;
 import android.view.animation.AccelerateDecelerateInterpolator;
 
-import com.android.launcher3.AbstractFloatingView;
-import com.android.launcher3.Launcher;
-import com.android.launcher3.LauncherAnimUtils;
-import com.android.launcher3.R;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.anim.RevealOutlineAnimation;
-import com.android.launcher3.anim.RoundedRectRevealOutlineProvider;
-import com.android.launcher3.dragndrop.DragLayer;
-import com.android.launcher3.graphics.TriangleShape;
-import com.android.launcher3.util.Themes;
+import com.android.launcher4.AbstractFloatingView;
+import com.android.launcher4.Launcher;
+import com.android.launcher4.LauncherAnimUtils;
+import com.android.launcher4.R;
+import com.android.launcher4.Utilities;
+import com.android.launcher4.anim.RevealOutlineAnimation;
+import com.android.launcher4.anim.RoundedRectRevealOutlineProvider;
+import com.android.launcher4.dragndrop.DragLayer;
+import com.android.launcher4.graphics.TriangleShape;
+import com.android.launcher4.util.Themes;
 
 import java.util.ArrayList;
 import java.util.Collections;

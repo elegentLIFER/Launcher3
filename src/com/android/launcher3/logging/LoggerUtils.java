@@ -13,26 +13,26 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.android.launcher3.logging;
+package com.android.launcher4.logging;
 
 import android.content.Context;
 import android.util.ArrayMap;
 import android.util.SparseArray;
 import android.view.View;
 
-import com.android.launcher3.AppInfo;
-import com.android.launcher3.ButtonDropTarget;
-import com.android.launcher3.ItemInfo;
-import com.android.launcher3.LauncherSettings;
-import com.android.launcher3.userevent.nano.LauncherLogExtensions.TargetExtension;
-import com.android.launcher3.userevent.nano.LauncherLogProto.Action;
-import com.android.launcher3.userevent.nano.LauncherLogProto.ContainerType;
-import com.android.launcher3.userevent.nano.LauncherLogProto.ControlType;
-import com.android.launcher3.userevent.nano.LauncherLogProto.ItemType;
-import com.android.launcher3.userevent.nano.LauncherLogProto.LauncherEvent;
-import com.android.launcher3.userevent.nano.LauncherLogProto.Target;
-import com.android.launcher3.userevent.nano.LauncherLogProto.TipType;
-import com.android.launcher3.util.InstantAppResolver;
+import com.android.launcher4.AppInfo;
+import com.android.launcher4.ButtonDropTarget;
+import com.android.launcher4.ItemInfo;
+import com.android.launcher4.LauncherSettings;
+import com.android.launcher4.userevent.nano.LauncherLogExtensions.TargetExtension;
+import com.android.launcher4.userevent.nano.LauncherLogProto.Action;
+import com.android.launcher4.userevent.nano.LauncherLogProto.ContainerType;
+import com.android.launcher4.userevent.nano.LauncherLogProto.ControlType;
+import com.android.launcher4.userevent.nano.LauncherLogProto.ItemType;
+import com.android.launcher4.userevent.nano.LauncherLogProto.LauncherEvent;
+import com.android.launcher4.userevent.nano.LauncherLogProto.Target;
+import com.android.launcher4.userevent.nano.LauncherLogProto.TipType;
+import com.android.launcher4.util.InstantAppResolver;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Modifier;

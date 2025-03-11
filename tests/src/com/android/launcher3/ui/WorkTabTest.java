@@ -13,18 +13,18 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.android.launcher3.ui;
+package com.android.launcher4.ui;
 
 import android.support.test.filters.LargeTest;
 import android.support.test.runner.AndroidJUnit4;
 import android.support.test.uiautomator.UiObject2;
 import android.support.test.uiautomator.Until;
 
-import com.android.launcher3.R;
-import com.android.launcher3.util.Condition;
-import com.android.launcher3.util.Wait;
-import com.android.launcher3.util.rule.LauncherActivityRule;
-import com.android.launcher3.util.rule.ShellCommandRule;
+import com.android.launcher4.R;
+import com.android.launcher4.util.Condition;
+import com.android.launcher4.util.Wait;
+import com.android.launcher4.util.rule.LauncherActivityRule;
+import com.android.launcher4.util.rule.ShellCommandRule;
 
 import org.junit.After;
 import org.junit.Before;

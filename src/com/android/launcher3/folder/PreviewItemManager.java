@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.folder;
+package com.android.launcher4.folder;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -26,17 +26,17 @@ import android.support.annotation.NonNull;
 import android.view.View;
 import android.widget.TextView;
 
-import com.android.launcher3.BubbleTextView;
-import com.android.launcher3.ShortcutInfo;
-import com.android.launcher3.Utilities;
+import com.android.launcher4.BubbleTextView;
+import com.android.launcher4.ShortcutInfo;
+import com.android.launcher4.Utilities;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import static com.android.launcher3.folder.ClippedFolderIconLayoutRule.ENTER_INDEX;
-import static com.android.launcher3.folder.ClippedFolderIconLayoutRule.EXIT_INDEX;
-import static com.android.launcher3.folder.ClippedFolderIconLayoutRule.MAX_NUM_ITEMS_IN_PREVIEW;
-import static com.android.launcher3.folder.FolderIcon.DROP_IN_ANIMATION_DURATION;
+import static com.android.launcher4.folder.ClippedFolderIconLayoutRule.ENTER_INDEX;
+import static com.android.launcher4.folder.ClippedFolderIconLayoutRule.EXIT_INDEX;
+import static com.android.launcher4.folder.ClippedFolderIconLayoutRule.MAX_NUM_ITEMS_IN_PREVIEW;
+import static com.android.launcher4.folder.FolderIcon.DROP_IN_ANIMATION_DURATION;
 
 /**
  * Manages the drawing and animations of {@link PreviewItemDrawingParams} for a {@link FolderIcon}.

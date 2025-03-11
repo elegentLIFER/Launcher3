@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.android.launcher3.graphics;
+package com.android.launcher4.graphics;
 
 import android.content.Context;
 import android.graphics.Canvas;

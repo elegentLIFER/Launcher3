@@ -13,7 +13,7 @@
  * License for the specific language governing permissions and limitations under
  * the License.
  */
-package com.android.launcher3.ui.widget;
+package com.android.launcher4.ui.widget;
 
 import android.appwidget.AppWidgetHost;
 import android.appwidget.AppWidgetManager;
@@ -29,23 +29,23 @@ import android.support.test.filters.LargeTest;
 import android.support.test.runner.AndroidJUnit4;
 import android.support.test.uiautomator.UiSelector;
 
-import com.android.launcher3.LauncherAppWidgetHost;
-import com.android.launcher3.widget.LauncherAppWidgetHostView;
-import com.android.launcher3.LauncherAppWidgetInfo;
-import com.android.launcher3.LauncherAppWidgetProviderInfo;
-import com.android.launcher3.LauncherModel;
-import com.android.launcher3.LauncherSettings;
-import com.android.launcher3.widget.PendingAppWidgetHostView;
-import com.android.launcher3.Workspace;
-import com.android.launcher3.compat.AppWidgetManagerCompat;
-import com.android.launcher3.compat.PackageInstallerCompat;
-import com.android.launcher3.ui.AbstractLauncherUiTest;
-import com.android.launcher3.util.ContentWriter;
-import com.android.launcher3.util.LooperExecutor;
-import com.android.launcher3.util.rule.LauncherActivityRule;
-import com.android.launcher3.util.rule.ShellCommandRule;
-import com.android.launcher3.widget.PendingAddWidgetInfo;
-import com.android.launcher3.widget.WidgetHostViewLoader;
+import com.android.launcher4.LauncherAppWidgetHost;
+import com.android.launcher4.widget.LauncherAppWidgetHostView;
+import com.android.launcher4.LauncherAppWidgetInfo;
+import com.android.launcher4.LauncherAppWidgetProviderInfo;
+import com.android.launcher4.LauncherModel;
+import com.android.launcher4.LauncherSettings;
+import com.android.launcher4.widget.PendingAppWidgetHostView;
+import com.android.launcher4.Workspace;
+import com.android.launcher4.compat.AppWidgetManagerCompat;
+import com.android.launcher4.compat.PackageInstallerCompat;
+import com.android.launcher4.ui.AbstractLauncherUiTest;
+import com.android.launcher4.util.ContentWriter;
+import com.android.launcher4.util.LooperExecutor;
+import com.android.launcher4.util.rule.LauncherActivityRule;
+import com.android.launcher4.util.rule.ShellCommandRule;
+import com.android.launcher4.widget.PendingAddWidgetInfo;
+import com.android.launcher4.widget.WidgetHostViewLoader;
 
 import org.junit.After;
 import org.junit.Before;

@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.android.launcher3.widget;
+package com.android.launcher4.widget;
 
-import static com.android.launcher3.logging.LoggerUtils.newContainerTarget;
+import static com.android.launcher4.logging.LoggerUtils.newContainerTarget;
 
 import android.content.Context;
 import android.graphics.Point;
@@ -25,19 +25,19 @@ import android.view.View.OnClickListener;
 import android.view.View.OnLongClickListener;
 import android.widget.Toast;
 
-import com.android.launcher3.DragSource;
-import com.android.launcher3.DropTarget.DragObject;
-import com.android.launcher3.ItemInfo;
-import com.android.launcher3.R;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.dragndrop.DragOptions;
-import com.android.launcher3.graphics.ColorScrim;
-import com.android.launcher3.touch.ItemLongClickListener;
-import com.android.launcher3.userevent.nano.LauncherLogProto.ContainerType;
-import com.android.launcher3.userevent.nano.LauncherLogProto.Target;
-import com.android.launcher3.util.SystemUiController;
-import com.android.launcher3.util.Themes;
-import com.android.launcher3.views.AbstractSlideInView;
+import com.android.launcher4.DragSource;
+import com.android.launcher4.DropTarget.DragObject;
+import com.android.launcher4.ItemInfo;
+import com.android.launcher4.R;
+import com.android.launcher4.Utilities;
+import com.android.launcher4.dragndrop.DragOptions;
+import com.android.launcher4.graphics.ColorScrim;
+import com.android.launcher4.touch.ItemLongClickListener;
+import com.android.launcher4.userevent.nano.LauncherLogProto.ContainerType;
+import com.android.launcher4.userevent.nano.LauncherLogProto.Target;
+import com.android.launcher4.util.SystemUiController;
+import com.android.launcher4.util.Themes;
+import com.android.launcher4.views.AbstractSlideInView;
 
 /**
  * Base class for various widgets popup

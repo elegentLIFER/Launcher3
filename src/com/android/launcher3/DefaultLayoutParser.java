@@ -1,4 +1,4 @@
-package com.android.launcher3;
+package com.android.launcher4;
 
 import android.appwidget.AppWidgetHost;
 import android.appwidget.AppWidgetManager;
@@ -15,8 +15,8 @@ import android.os.Bundle;
 import android.text.TextUtils;
 import android.util.ArrayMap;
 import android.util.Log;
-import com.android.launcher3.LauncherSettings.Favorites;
-import com.android.launcher3.util.Thunk;
+import com.android.launcher4.LauncherSettings.Favorites;
+import com.android.launcher4.util.Thunk;
 import java.io.IOException;
 import java.net.URISyntaxException;
 import java.util.List;

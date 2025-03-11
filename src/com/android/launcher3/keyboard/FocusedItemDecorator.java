@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.keyboard;
+package com.android.launcher4.keyboard;
 
 import android.graphics.Canvas;
 import android.support.v7.widget.RecyclerView;
@@ -23,7 +23,7 @@ import android.support.v7.widget.RecyclerView.State;
 import android.view.View;
 import android.view.View.OnFocusChangeListener;
 
-import com.android.launcher3.keyboard.FocusIndicatorHelper.SimpleFocusIndicatorHelper;
+import com.android.launcher4.keyboard.FocusIndicatorHelper.SimpleFocusIndicatorHelper;
 
 /**
  * {@link ItemDecoration} for drawing and animating focused view background.

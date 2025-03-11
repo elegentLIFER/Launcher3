@@ -1,4 +1,4 @@
-package com.android.launcher3.logging;
+package com.android.launcher4.logging;
 
 import android.os.Handler;
 import android.os.HandlerThread;
@@ -6,8 +6,8 @@ import android.os.Message;
 import android.util.Log;
 import android.util.Pair;
 
-import com.android.launcher3.Utilities;
-import com.android.launcher3.config.FeatureFlags;
+import com.android.launcher4.Utilities;
+import com.android.launcher4.config.FeatureFlags;
 
 import java.io.BufferedReader;
 import java.io.File;

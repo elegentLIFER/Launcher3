@@ -13,16 +13,16 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.android.launcher3.model;
+package com.android.launcher4.model;
 
 import android.content.Context;
 import android.support.annotation.WorkerThread;
 import android.util.Log;
 
-import com.android.launcher3.AllAppsList;
-import com.android.launcher3.LauncherAppState;
-import com.android.launcher3.LauncherModel;
-import com.android.launcher3.LauncherModel.ModelUpdateTask;
+import com.android.launcher4.AllAppsList;
+import com.android.launcher4.LauncherAppState;
+import com.android.launcher4.LauncherModel;
+import com.android.launcher4.LauncherModel.ModelUpdateTask;
 
 import java.util.concurrent.Executor;
 

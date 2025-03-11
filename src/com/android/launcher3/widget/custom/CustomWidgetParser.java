@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.android.launcher3.widget.custom;
+package com.android.launcher4.widget.custom;
 
 import android.appwidget.AppWidgetManager;
 import android.appwidget.AppWidgetProviderInfo;
@@ -26,9 +26,9 @@ import android.os.Process;
 import android.util.SparseArray;
 import android.util.Xml;
 
-import com.android.launcher3.LauncherAppWidgetInfo;
-import com.android.launcher3.LauncherAppWidgetProviderInfo;
-import com.android.launcher3.R;
+import com.android.launcher4.LauncherAppWidgetInfo;
+import com.android.launcher4.LauncherAppWidgetProviderInfo;
+import com.android.launcher4.R;
 
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;
@@ -37,7 +37,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-import static com.android.launcher3.LauncherAppWidgetProviderInfo.CLS_CUSTOM_WIDGET_PREFIX;
+import static com.android.launcher4.LauncherAppWidgetProviderInfo.CLS_CUSTOM_WIDGET_PREFIX;
 
 /**
  * Utility class to parse {@ink CustomAppWidgetProviderInfo} definitions from xml

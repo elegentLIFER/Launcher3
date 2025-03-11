@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.android.launcher3;
+package com.android.launcher4;
 
-import static com.android.launcher3.anim.Interpolators.ACCEL;
+import static com.android.launcher4.anim.Interpolators.ACCEL;
 
 import android.animation.ObjectAnimator;
 import android.graphics.Bitmap;
@@ -34,7 +34,7 @@ import android.graphics.drawable.Drawable;
 import android.util.Property;
 import android.util.SparseArray;
 
-import com.android.launcher3.graphics.BitmapInfo;
+import com.android.launcher4.graphics.BitmapInfo;
 
 public class FastBitmapDrawable extends Drawable {
 

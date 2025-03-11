@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3;
+package com.android.launcher4;
 
 import static android.app.Activity.RESULT_CANCELED;
 
@@ -31,9 +31,9 @@ import android.util.SparseArray;
 import android.view.LayoutInflater;
 import android.widget.Toast;
 
-import com.android.launcher3.config.FeatureFlags;
-import com.android.launcher3.widget.DeferredAppWidgetHostView;
-import com.android.launcher3.widget.LauncherAppWidgetHostView;
+import com.android.launcher4.config.FeatureFlags;
+import com.android.launcher4.widget.DeferredAppWidgetHostView;
+import com.android.launcher4.widget.LauncherAppWidgetHostView;
 
 import java.util.ArrayList;
 

@@ -14,28 +14,28 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.model;
+package com.android.launcher4.model;
 
 import android.os.Looper;
 import android.util.Log;
 
-import com.android.launcher3.AllAppsList;
-import com.android.launcher3.AppInfo;
-import com.android.launcher3.InvariantDeviceProfile;
-import com.android.launcher3.ItemInfo;
-import com.android.launcher3.LauncherAppState;
-import com.android.launcher3.LauncherAppWidgetInfo;
-import com.android.launcher3.LauncherModel.Callbacks;
-import com.android.launcher3.LauncherSettings;
-import com.android.launcher3.MainThreadExecutor;
-import com.android.launcher3.PagedView;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.config.FeatureFlags;
-import com.android.launcher3.util.ComponentKey;
-import com.android.launcher3.util.LooperIdleLock;
-import com.android.launcher3.util.MultiHashMap;
-import com.android.launcher3.util.ViewOnDrawExecutor;
-import com.android.launcher3.widget.WidgetListRowEntry;
+import com.android.launcher4.AllAppsList;
+import com.android.launcher4.AppInfo;
+import com.android.launcher4.InvariantDeviceProfile;
+import com.android.launcher4.ItemInfo;
+import com.android.launcher4.LauncherAppState;
+import com.android.launcher4.LauncherAppWidgetInfo;
+import com.android.launcher4.LauncherModel.Callbacks;
+import com.android.launcher4.LauncherSettings;
+import com.android.launcher4.MainThreadExecutor;
+import com.android.launcher4.PagedView;
+import com.android.launcher4.Utilities;
+import com.android.launcher4.config.FeatureFlags;
+import com.android.launcher4.util.ComponentKey;
+import com.android.launcher4.util.LooperIdleLock;
+import com.android.launcher4.util.MultiHashMap;
+import com.android.launcher4.util.ViewOnDrawExecutor;
+import com.android.launcher4.widget.WidgetListRowEntry;
 
 import java.lang.ref.WeakReference;
 import java.util.ArrayList;
@@ -47,7 +47,7 @@ import java.util.Set;
 import java.util.concurrent.Executor;
 
 /**
- * Helper class to handle results of {@link com.android.launcher3.model.LoaderTask}.
+ * Helper class to handle results of {@link com.android.launcher4.model.LoaderTask}.
  */
 public class LoaderResults {
 

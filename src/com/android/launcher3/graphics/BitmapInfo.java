@@ -13,11 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.android.launcher3.graphics;
+package com.android.launcher4.graphics;
 
 import android.graphics.Bitmap;
 
-import com.android.launcher3.ItemInfoWithIcon;
+import com.android.launcher4.ItemInfoWithIcon;
 
 public class BitmapInfo {
 

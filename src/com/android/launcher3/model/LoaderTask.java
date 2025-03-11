@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.model;
+package com.android.launcher4.model;
 
-import static com.android.launcher3.ItemInfoWithIcon.FLAG_DISABLED_LOCKED_USER;
-import static com.android.launcher3.ItemInfoWithIcon.FLAG_DISABLED_SAFEMODE;
-import static com.android.launcher3.ItemInfoWithIcon.FLAG_DISABLED_SUSPENDED;
-import static com.android.launcher3.folder.ClippedFolderIconLayoutRule.MAX_NUM_ITEMS_IN_PREVIEW;
-import static com.android.launcher3.model.LoaderResults.filterCurrentWorkspaceItems;
+import static com.android.launcher4.ItemInfoWithIcon.FLAG_DISABLED_LOCKED_USER;
+import static com.android.launcher4.ItemInfoWithIcon.FLAG_DISABLED_SAFEMODE;
+import static com.android.launcher4.ItemInfoWithIcon.FLAG_DISABLED_SUSPENDED;
+import static com.android.launcher4.folder.ClippedFolderIconLayoutRule.MAX_NUM_ITEMS_IN_PREVIEW;
+import static com.android.launcher4.model.LoaderResults.filterCurrentWorkspaceItems;
 
 import android.appwidget.AppWidgetProviderInfo;
 import android.content.ComponentName;
@@ -40,37 +40,37 @@ import android.util.Log;
 import android.util.LongSparseArray;
 import android.util.MutableInt;
 
-import com.android.launcher3.AllAppsList;
-import com.android.launcher3.AppInfo;
-import com.android.launcher3.FolderInfo;
-import com.android.launcher3.IconCache;
-import com.android.launcher3.InstallShortcutReceiver;
-import com.android.launcher3.ItemInfo;
-import com.android.launcher3.LauncherAppState;
-import com.android.launcher3.LauncherAppWidgetInfo;
-import com.android.launcher3.LauncherModel;
-import com.android.launcher3.LauncherSettings;
-import com.android.launcher3.ShortcutInfo;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.compat.AppWidgetManagerCompat;
-import com.android.launcher3.compat.LauncherAppsCompat;
-import com.android.launcher3.compat.PackageInstallerCompat;
-import com.android.launcher3.compat.UserManagerCompat;
-import com.android.launcher3.config.FeatureFlags;
-import com.android.launcher3.folder.Folder;
-import com.android.launcher3.folder.FolderIconPreviewVerifier;
-import com.android.launcher3.graphics.LauncherIcons;
-import com.android.launcher3.logging.FileLog;
-import com.android.launcher3.provider.ImportDataTask;
-import com.android.launcher3.shortcuts.DeepShortcutManager;
-import com.android.launcher3.shortcuts.ShortcutInfoCompat;
-import com.android.launcher3.shortcuts.ShortcutKey;
-import com.android.launcher3.util.ComponentKey;
-import com.android.launcher3.util.LooperIdleLock;
-import com.android.launcher3.util.MultiHashMap;
-import com.android.launcher3.util.PackageManagerHelper;
-import com.android.launcher3.util.Provider;
-import com.android.launcher3.util.TraceHelper;
+import com.android.launcher4.AllAppsList;
+import com.android.launcher4.AppInfo;
+import com.android.launcher4.FolderInfo;
+import com.android.launcher4.IconCache;
+import com.android.launcher4.InstallShortcutReceiver;
+import com.android.launcher4.ItemInfo;
+import com.android.launcher4.LauncherAppState;
+import com.android.launcher4.LauncherAppWidgetInfo;
+import com.android.launcher4.LauncherModel;
+import com.android.launcher4.LauncherSettings;
+import com.android.launcher4.ShortcutInfo;
+import com.android.launcher4.Utilities;
+import com.android.launcher4.compat.AppWidgetManagerCompat;
+import com.android.launcher4.compat.LauncherAppsCompat;
+import com.android.launcher4.compat.PackageInstallerCompat;
+import com.android.launcher4.compat.UserManagerCompat;
+import com.android.launcher4.config.FeatureFlags;
+import com.android.launcher4.folder.Folder;
+import com.android.launcher4.folder.FolderIconPreviewVerifier;
+import com.android.launcher4.graphics.LauncherIcons;
+import com.android.launcher4.logging.FileLog;
+import com.android.launcher4.provider.ImportDataTask;
+import com.android.launcher4.shortcuts.DeepShortcutManager;
+import com.android.launcher4.shortcuts.ShortcutInfoCompat;
+import com.android.launcher4.shortcuts.ShortcutKey;
+import com.android.launcher4.util.ComponentKey;
+import com.android.launcher4.util.LooperIdleLock;
+import com.android.launcher4.util.MultiHashMap;
+import com.android.launcher4.util.PackageManagerHelper;
+import com.android.launcher4.util.Provider;
+import com.android.launcher4.util.TraceHelper;
 
 import java.util.ArrayList;
 import java.util.Collections;

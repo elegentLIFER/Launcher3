@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.android.launcher3.allapps.search;
+package com.android.launcher4.allapps.search;
 
 /**
  * An interface for handling search.

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.compat;
+package com.android.launcher4.compat;
 
 import android.annotation.TargetApi;
 import android.content.Context;
@@ -30,14 +30,14 @@ import android.os.Process;
 import android.os.UserHandle;
 import android.support.annotation.Nullable;
 
-import com.android.launcher3.LauncherAppState;
-import com.android.launcher3.LauncherModel;
-import com.android.launcher3.ShortcutInfo;
-import com.android.launcher3.compat.ShortcutConfigActivityInfo.ShortcutConfigActivityInfoVO;
-import com.android.launcher3.graphics.LauncherIcons;
-import com.android.launcher3.shortcuts.ShortcutInfoCompat;
-import com.android.launcher3.util.LooperExecutor;
-import com.android.launcher3.util.PackageUserKey;
+import com.android.launcher4.LauncherAppState;
+import com.android.launcher4.LauncherModel;
+import com.android.launcher4.ShortcutInfo;
+import com.android.launcher4.compat.ShortcutConfigActivityInfo.ShortcutConfigActivityInfoVO;
+import com.android.launcher4.graphics.LauncherIcons;
+import com.android.launcher4.shortcuts.ShortcutInfoCompat;
+import com.android.launcher4.util.LooperExecutor;
+import com.android.launcher4.util.PackageUserKey;
 
 import java.util.ArrayList;
 import java.util.List;

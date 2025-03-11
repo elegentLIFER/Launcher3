@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.android.launcher3.uioverrides.dynamicui;
+package com.android.launcher4.uioverrides.dynamicui;
 
 import android.annotation.TargetApi;
 import android.app.WallpaperColors;

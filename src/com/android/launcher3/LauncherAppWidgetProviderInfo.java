@@ -1,4 +1,4 @@
-package com.android.launcher3;
+package com.android.launcher4;
 
 import android.appwidget.AppWidgetHostView;
 import android.appwidget.AppWidgetProviderInfo;

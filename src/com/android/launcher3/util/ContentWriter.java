@@ -1,4 +1,4 @@
-package com.android.launcher3.util;
+package com.android.launcher4.util;
 
 /**
  * Copyright (C) 2016 The Android Open Source Project
@@ -23,10 +23,10 @@ import android.graphics.Bitmap;
 import android.net.Uri;
 import android.os.UserHandle;
 
-import com.android.launcher3.LauncherAppState;
-import com.android.launcher3.LauncherSettings;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.compat.UserManagerCompat;
+import com.android.launcher4.LauncherAppState;
+import com.android.launcher4.LauncherSettings;
+import com.android.launcher4.Utilities;
+import com.android.launcher4.compat.UserManagerCompat;
 
 /**
  * A wrapper around {@link ContentValues} with some utility methods.

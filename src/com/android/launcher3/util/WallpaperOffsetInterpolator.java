@@ -1,4 +1,4 @@
-package com.android.launcher3.util;
+package com.android.launcher4.util;
 
 import android.app.WallpaperManager;
 import android.content.BroadcastReceiver;
@@ -12,9 +12,9 @@ import android.os.SystemClock;
 import android.util.Log;
 import android.view.animation.Interpolator;
 
-import com.android.launcher3.Utilities;
-import com.android.launcher3.Workspace;
-import com.android.launcher3.anim.Interpolators;
+import com.android.launcher4.Utilities;
+import com.android.launcher4.Workspace;
+import com.android.launcher4.anim.Interpolators;
 
 /**
  * Utility class to handle wallpaper scrolling along with workspace.

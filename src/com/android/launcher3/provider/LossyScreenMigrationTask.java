@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.provider;
+package com.android.launcher4.provider;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -22,12 +22,12 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.graphics.Point;
 
-import com.android.launcher3.InvariantDeviceProfile;
-import com.android.launcher3.LauncherSettings.Favorites;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.Workspace;
-import com.android.launcher3.model.GridSizeMigrationTask;
-import com.android.launcher3.util.LongArrayMap;
+import com.android.launcher4.InvariantDeviceProfile;
+import com.android.launcher4.LauncherSettings.Favorites;
+import com.android.launcher4.Utilities;
+import com.android.launcher4.Workspace;
+import com.android.launcher4.model.GridSizeMigrationTask;
+import com.android.launcher4.util.LongArrayMap;
 
 import java.util.ArrayList;
 

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.dragndrop;
+package com.android.launcher4.dragndrop;
 
 import android.annotation.TargetApi;
 import android.appwidget.AppWidgetManager;
@@ -25,9 +25,9 @@ import android.os.Bundle;
 import android.os.Parcel;
 import android.os.Parcelable;
 
-import com.android.launcher3.ItemInfo;
-import com.android.launcher3.Launcher;
-import com.android.launcher3.widget.WidgetAddFlowHandler;
+import com.android.launcher4.ItemInfo;
+import com.android.launcher4.Launcher;
+import com.android.launcher4.widget.WidgetAddFlowHandler;
 
 /**
  * Extension of WidgetAddFlowHandler to handle pin item request behavior.

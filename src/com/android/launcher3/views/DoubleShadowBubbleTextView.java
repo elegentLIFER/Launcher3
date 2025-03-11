@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.views;
+package com.android.launcher4.views;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -24,8 +24,8 @@ import android.support.v4.graphics.ColorUtils;
 import android.util.AttributeSet;
 import android.widget.TextView;
 
-import com.android.launcher3.BubbleTextView;
-import com.android.launcher3.R;
+import com.android.launcher4.BubbleTextView;
+import com.android.launcher4.R;
 
 /**
  * Extension of {@link BubbleTextView} which draws two shadows on the text (ambient and key shadows}

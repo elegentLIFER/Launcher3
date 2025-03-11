@@ -13,22 +13,22 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.android.launcher3.uioverrides;
+package com.android.launcher4.uioverrides;
 
-import static com.android.launcher3.LauncherAnimUtils.OVERVIEW_TRANSITION_MS;
-import static com.android.launcher3.anim.Interpolators.DEACCEL_2;
-import static com.android.launcher3.states.RotationHelper.REQUEST_ROTATE;
+import static com.android.launcher4.LauncherAnimUtils.OVERVIEW_TRANSITION_MS;
+import static com.android.launcher4.anim.Interpolators.DEACCEL_2;
+import static com.android.launcher4.states.RotationHelper.REQUEST_ROTATE;
 
 import android.view.View;
 
-import com.android.launcher3.AbstractFloatingView;
-import com.android.launcher3.DeviceProfile;
-import com.android.launcher3.Launcher;
-import com.android.launcher3.LauncherState;
-import com.android.launcher3.R;
-import com.android.launcher3.Workspace;
-import com.android.launcher3.allapps.DiscoveryBounce;
-import com.android.launcher3.userevent.nano.LauncherLogProto.ContainerType;
+import com.android.launcher4.AbstractFloatingView;
+import com.android.launcher4.DeviceProfile;
+import com.android.launcher4.Launcher;
+import com.android.launcher4.LauncherState;
+import com.android.launcher4.R;
+import com.android.launcher4.Workspace;
+import com.android.launcher4.allapps.DiscoveryBounce;
+import com.android.launcher4.userevent.nano.LauncherLogProto.ContainerType;
 import com.android.quickstep.RecentsModel;
 import com.android.quickstep.views.RecentsView;
 

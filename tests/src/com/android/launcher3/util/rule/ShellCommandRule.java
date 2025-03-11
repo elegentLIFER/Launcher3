@@ -13,7 +13,7 @@
  * License for the specific language governing permissions and limitations under
  * the License.
  */
-package com.android.launcher3.util.rule;
+package com.android.launcher4.util.rule;
 
 import android.content.ComponentName;
 import android.content.pm.ActivityInfo;

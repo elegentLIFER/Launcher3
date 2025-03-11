@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.android.launcher3.graphics;
+package com.android.launcher4.graphics;
 
 import android.annotation.TargetApi;
 import android.graphics.Bitmap;
@@ -21,7 +21,7 @@ import android.graphics.Canvas;
 import android.graphics.Picture;
 import android.os.Build;
 
-import com.android.launcher3.Utilities;
+import com.android.launcher4.Utilities;
 
 public class BitmapRenderer {
 

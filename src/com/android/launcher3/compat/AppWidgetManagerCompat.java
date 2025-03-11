@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.compat;
+package com.android.launcher4.compat;
 
 import android.appwidget.AppWidgetManager;
 import android.appwidget.AppWidgetProviderInfo;
@@ -24,13 +24,13 @@ import android.os.Bundle;
 import android.os.UserHandle;
 import android.support.annotation.Nullable;
 
-import com.android.launcher3.LauncherAppWidgetInfo;
-import com.android.launcher3.LauncherAppWidgetProviderInfo;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.config.FeatureFlags;
-import com.android.launcher3.util.ComponentKey;
-import com.android.launcher3.util.PackageUserKey;
-import com.android.launcher3.widget.custom.CustomWidgetParser;
+import com.android.launcher4.LauncherAppWidgetInfo;
+import com.android.launcher4.LauncherAppWidgetProviderInfo;
+import com.android.launcher4.Utilities;
+import com.android.launcher4.config.FeatureFlags;
+import com.android.launcher4.util.ComponentKey;
+import com.android.launcher4.util.PackageUserKey;
+import com.android.launcher4.widget.custom.CustomWidgetParser;
 
 import java.util.HashMap;
 import java.util.List;

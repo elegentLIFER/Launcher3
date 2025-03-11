@@ -13,14 +13,14 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.android.launcher3.anim;
+package com.android.launcher4.anim;
 
 import android.animation.Animator;
 import android.animation.AnimatorSet;
 import android.util.SparseArray;
 import android.view.animation.Interpolator;
 
-import com.android.launcher3.LauncherAnimUtils;
+import com.android.launcher4.LauncherAnimUtils;
 
 import java.util.ArrayList;
 import java.util.List;

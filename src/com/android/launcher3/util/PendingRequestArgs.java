@@ -13,15 +13,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.android.launcher3.util;
+package com.android.launcher4.util;
 
 import android.content.ContentValues;
 import android.content.Intent;
 import android.os.Parcel;
 import android.os.Parcelable;
 
-import com.android.launcher3.ItemInfo;
-import com.android.launcher3.widget.WidgetAddFlowHandler;
+import com.android.launcher4.ItemInfo;
+import com.android.launcher4.widget.WidgetAddFlowHandler;
 
 /**
  * Utility class to store information regarding a pending request made by launcher. This information

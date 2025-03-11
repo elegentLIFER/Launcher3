@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.popup;
+package com.android.launcher4.popup;
 
-import static com.android.launcher3.notification.NotificationMainView.NOTIFICATION_ITEM_INFO;
-import static com.android.launcher3.popup.PopupPopulator.MAX_SHORTCUTS;
-import static com.android.launcher3.popup.PopupPopulator.MAX_SHORTCUTS_IF_NOTIFICATIONS;
-import static com.android.launcher3.userevent.nano.LauncherLogProto.ContainerType;
-import static com.android.launcher3.userevent.nano.LauncherLogProto.ItemType;
-import static com.android.launcher3.userevent.nano.LauncherLogProto.Target;
+import static com.android.launcher4.notification.NotificationMainView.NOTIFICATION_ITEM_INFO;
+import static com.android.launcher4.popup.PopupPopulator.MAX_SHORTCUTS;
+import static com.android.launcher4.popup.PopupPopulator.MAX_SHORTCUTS_IF_NOTIFICATIONS;
+import static com.android.launcher4.userevent.nano.LauncherLogProto.ContainerType;
+import static com.android.launcher4.userevent.nano.LauncherLogProto.ItemType;
+import static com.android.launcher4.userevent.nano.LauncherLogProto.Target;
 
 import android.animation.AnimatorSet;
 import android.animation.LayoutTransition;
@@ -41,32 +41,32 @@ import android.view.ViewConfiguration;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 
-import com.android.launcher3.AbstractFloatingView;
-import com.android.launcher3.BubbleTextView;
-import com.android.launcher3.DragSource;
-import com.android.launcher3.DropTarget;
-import com.android.launcher3.DropTarget.DragObject;
-import com.android.launcher3.ItemInfo;
-import com.android.launcher3.ItemInfoWithIcon;
-import com.android.launcher3.Launcher;
-import com.android.launcher3.LauncherModel;
-import com.android.launcher3.R;
-import com.android.launcher3.accessibility.LauncherAccessibilityDelegate;
-import com.android.launcher3.accessibility.ShortcutMenuAccessibilityDelegate;
-import com.android.launcher3.badge.BadgeInfo;
-import com.android.launcher3.dragndrop.DragController;
-import com.android.launcher3.dragndrop.DragLayer;
-import com.android.launcher3.dragndrop.DragOptions;
-import com.android.launcher3.dragndrop.DragView;
-import com.android.launcher3.logging.LoggerUtils;
-import com.android.launcher3.notification.NotificationInfo;
-import com.android.launcher3.notification.NotificationItemView;
-import com.android.launcher3.notification.NotificationKeyData;
-import com.android.launcher3.shortcuts.DeepShortcutManager;
-import com.android.launcher3.shortcuts.DeepShortcutView;
-import com.android.launcher3.shortcuts.ShortcutDragPreviewProvider;
-import com.android.launcher3.touch.ItemLongClickListener;
-import com.android.launcher3.util.PackageUserKey;
+import com.android.launcher4.AbstractFloatingView;
+import com.android.launcher4.BubbleTextView;
+import com.android.launcher4.DragSource;
+import com.android.launcher4.DropTarget;
+import com.android.launcher4.DropTarget.DragObject;
+import com.android.launcher4.ItemInfo;
+import com.android.launcher4.ItemInfoWithIcon;
+import com.android.launcher4.Launcher;
+import com.android.launcher4.LauncherModel;
+import com.android.launcher4.R;
+import com.android.launcher4.accessibility.LauncherAccessibilityDelegate;
+import com.android.launcher4.accessibility.ShortcutMenuAccessibilityDelegate;
+import com.android.launcher4.badge.BadgeInfo;
+import com.android.launcher4.dragndrop.DragController;
+import com.android.launcher4.dragndrop.DragLayer;
+import com.android.launcher4.dragndrop.DragOptions;
+import com.android.launcher4.dragndrop.DragView;
+import com.android.launcher4.logging.LoggerUtils;
+import com.android.launcher4.notification.NotificationInfo;
+import com.android.launcher4.notification.NotificationItemView;
+import com.android.launcher4.notification.NotificationKeyData;
+import com.android.launcher4.shortcuts.DeepShortcutManager;
+import com.android.launcher4.shortcuts.DeepShortcutView;
+import com.android.launcher4.shortcuts.ShortcutDragPreviewProvider;
+import com.android.launcher4.touch.ItemLongClickListener;
+import com.android.launcher4.util.PackageUserKey;
 
 import java.util.ArrayList;
 import java.util.List;

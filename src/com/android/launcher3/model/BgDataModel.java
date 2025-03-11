@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.android.launcher3.model;
+package com.android.launcher4.model;
 
 import android.content.Context;
 import android.os.UserHandle;
@@ -21,23 +21,23 @@ import android.text.TextUtils;
 import android.util.Log;
 import android.util.MutableInt;
 
-import com.android.launcher3.FolderInfo;
-import com.android.launcher3.InstallShortcutReceiver;
-import com.android.launcher3.ItemInfo;
-import com.android.launcher3.LauncherAppWidgetInfo;
-import com.android.launcher3.LauncherSettings;
-import com.android.launcher3.ShortcutInfo;
-import com.android.launcher3.config.FeatureFlags;
-import com.android.launcher3.logging.DumpTargetWrapper;
-import com.android.launcher3.model.nano.LauncherDumpProto;
-import com.android.launcher3.model.nano.LauncherDumpProto.ContainerType;
-import com.android.launcher3.model.nano.LauncherDumpProto.DumpTarget;
-import com.android.launcher3.shortcuts.DeepShortcutManager;
-import com.android.launcher3.shortcuts.ShortcutInfoCompat;
-import com.android.launcher3.shortcuts.ShortcutKey;
-import com.android.launcher3.util.ComponentKey;
-import com.android.launcher3.util.LongArrayMap;
-import com.android.launcher3.util.MultiHashMap;
+import com.android.launcher4.FolderInfo;
+import com.android.launcher4.InstallShortcutReceiver;
+import com.android.launcher4.ItemInfo;
+import com.android.launcher4.LauncherAppWidgetInfo;
+import com.android.launcher4.LauncherSettings;
+import com.android.launcher4.ShortcutInfo;
+import com.android.launcher4.config.FeatureFlags;
+import com.android.launcher4.logging.DumpTargetWrapper;
+import com.android.launcher4.model.nano.LauncherDumpProto;
+import com.android.launcher4.model.nano.LauncherDumpProto.ContainerType;
+import com.android.launcher4.model.nano.LauncherDumpProto.DumpTarget;
+import com.android.launcher4.shortcuts.DeepShortcutManager;
+import com.android.launcher4.shortcuts.ShortcutInfoCompat;
+import com.android.launcher4.shortcuts.ShortcutKey;
+import com.android.launcher4.util.ComponentKey;
+import com.android.launcher4.util.LongArrayMap;
+import com.android.launcher4.util.MultiHashMap;
 import com.google.protobuf.nano.MessageNano;
 
 import java.io.FileDescriptor;

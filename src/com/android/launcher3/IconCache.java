@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3;
+package com.android.launcher4;
 
 import android.content.ComponentName;
 import android.content.ContentValues;
@@ -43,18 +43,18 @@ import android.support.v4.graphics.ColorUtils;
 import android.text.TextUtils;
 import android.util.Log;
 
-import com.android.launcher3.compat.LauncherAppsCompat;
-import com.android.launcher3.compat.UserManagerCompat;
-import com.android.launcher3.graphics.BitmapInfo;
-import com.android.launcher3.graphics.BitmapRenderer;
-import com.android.launcher3.graphics.LauncherIcons;
-import com.android.launcher3.model.PackageItemInfo;
-import com.android.launcher3.util.ComponentKey;
-import com.android.launcher3.util.InstantAppResolver;
-import com.android.launcher3.util.Preconditions;
-import com.android.launcher3.util.Provider;
-import com.android.launcher3.util.SQLiteCacheHelper;
-import com.android.launcher3.util.Thunk;
+import com.android.launcher4.compat.LauncherAppsCompat;
+import com.android.launcher4.compat.UserManagerCompat;
+import com.android.launcher4.graphics.BitmapInfo;
+import com.android.launcher4.graphics.BitmapRenderer;
+import com.android.launcher4.graphics.LauncherIcons;
+import com.android.launcher4.model.PackageItemInfo;
+import com.android.launcher4.util.ComponentKey;
+import com.android.launcher4.util.InstantAppResolver;
+import com.android.launcher4.util.Preconditions;
+import com.android.launcher4.util.Provider;
+import com.android.launcher4.util.SQLiteCacheHelper;
+import com.android.launcher4.util.Thunk;
 
 import java.util.Collections;
 import java.util.HashMap;

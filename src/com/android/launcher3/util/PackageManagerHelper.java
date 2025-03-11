@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.util;
+package com.android.launcher4.util;
 
 import android.app.AppOpsManager;
 import android.content.ActivityNotFoundException;
@@ -35,16 +35,16 @@ import android.text.TextUtils;
 import android.util.Log;
 import android.widget.Toast;
 
-import com.android.launcher3.AppInfo;
-import com.android.launcher3.ItemInfo;
-import com.android.launcher3.Launcher;
-import com.android.launcher3.LauncherAppWidgetInfo;
-import com.android.launcher3.PendingAddItemInfo;
-import com.android.launcher3.PromiseAppInfo;
-import com.android.launcher3.R;
-import com.android.launcher3.ShortcutInfo;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.compat.LauncherAppsCompat;
+import com.android.launcher4.AppInfo;
+import com.android.launcher4.ItemInfo;
+import com.android.launcher4.Launcher;
+import com.android.launcher4.LauncherAppWidgetInfo;
+import com.android.launcher4.PendingAddItemInfo;
+import com.android.launcher4.PromiseAppInfo;
+import com.android.launcher4.R;
+import com.android.launcher4.ShortcutInfo;
+import com.android.launcher4.Utilities;
+import com.android.launcher4.compat.LauncherAppsCompat;
 
 import java.net.URISyntaxException;
 import java.util.List;

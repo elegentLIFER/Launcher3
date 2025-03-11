@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.android.launcher3;
+package com.android.launcher4;
 
 import android.content.Context;
 
-import com.android.launcher3.graphics.IconShapeOverride;
-import com.android.launcher3.logging.FileLog;
+import com.android.launcher4.graphics.IconShapeOverride;
+import com.android.launcher4.logging.FileLog;
 
 /**
  * Utility class to handle one time initializations of the main process

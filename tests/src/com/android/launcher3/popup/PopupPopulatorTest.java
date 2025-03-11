@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.popup;
+package com.android.launcher4.popup;
 
 import android.content.pm.ShortcutInfo;
 import android.support.test.runner.AndroidJUnit4;
 
-import com.android.launcher3.shortcuts.ShortcutInfoCompat;
+import com.android.launcher4.shortcuts.ShortcutInfoCompat;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -28,8 +28,8 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import static com.android.launcher3.popup.PopupPopulator.MAX_SHORTCUTS;
-import static com.android.launcher3.popup.PopupPopulator.NUM_DYNAMIC;
+import static com.android.launcher4.popup.PopupPopulator.MAX_SHORTCUTS;
+import static com.android.launcher4.popup.PopupPopulator.NUM_DYNAMIC;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;

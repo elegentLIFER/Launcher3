@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.shortcuts;
+package com.android.launcher4.shortcuts;
 
 import android.annotation.TargetApi;
 import android.content.ComponentName;
@@ -24,16 +24,16 @@ import android.content.pm.ShortcutInfo;
 import android.os.Build;
 import android.os.UserHandle;
 
-import com.android.launcher3.R;
+import com.android.launcher4.R;
 
 /**
  * Wrapper class for {@link android.content.pm.ShortcutInfo}, representing deep shortcuts into apps.
  *
- * Not to be confused with {@link com.android.launcher3.ShortcutInfo}.
+ * Not to be confused with {@link com.android.launcher4.ShortcutInfo}.
  */
 @TargetApi(Build.VERSION_CODES.N)
 public class ShortcutInfoCompat {
-    private static final String INTENT_CATEGORY = "com.android.launcher3.DEEP_SHORTCUT";
+    private static final String INTENT_CATEGORY = "com.android.launcher4.DEEP_SHORTCUT";
     private static final String EXTRA_BADGEPKG = "badge_package";
     public static final String EXTRA_SHORTCUT_ID = "shortcut_id";
     private ShortcutInfo mShortcutInfo;

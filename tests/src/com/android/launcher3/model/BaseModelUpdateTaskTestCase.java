@@ -1,4 +1,4 @@
-package com.android.launcher3.model;
+package com.android.launcher4.model;
 
 import static org.mockito.Matchers.anyBoolean;
 import static org.mockito.Mockito.atLeast;
@@ -22,21 +22,21 @@ import android.support.annotation.NonNull;
 import android.support.test.InstrumentationRegistry;
 import android.support.test.rule.provider.ProviderTestRule;
 
-import com.android.launcher3.AllAppsList;
-import com.android.launcher3.AppFilter;
-import com.android.launcher3.AppInfo;
-import com.android.launcher3.IconCache;
-import com.android.launcher3.InvariantDeviceProfile;
-import com.android.launcher3.ItemInfo;
-import com.android.launcher3.LauncherAppState;
-import com.android.launcher3.LauncherModel;
-import com.android.launcher3.LauncherModel.Callbacks;
-import com.android.launcher3.LauncherModel.ModelUpdateTask;
-import com.android.launcher3.LauncherProvider;
-import com.android.launcher3.graphics.BitmapInfo;
-import com.android.launcher3.util.ComponentKey;
-import com.android.launcher3.util.Provider;
-import com.android.launcher3.util.TestLauncherProvider;
+import com.android.launcher4.AllAppsList;
+import com.android.launcher4.AppFilter;
+import com.android.launcher4.AppInfo;
+import com.android.launcher4.IconCache;
+import com.android.launcher4.InvariantDeviceProfile;
+import com.android.launcher4.ItemInfo;
+import com.android.launcher4.LauncherAppState;
+import com.android.launcher4.LauncherModel;
+import com.android.launcher4.LauncherModel.Callbacks;
+import com.android.launcher4.LauncherModel.ModelUpdateTask;
+import com.android.launcher4.LauncherProvider;
+import com.android.launcher4.graphics.BitmapInfo;
+import com.android.launcher4.util.ComponentKey;
+import com.android.launcher4.util.Provider;
+import com.android.launcher4.util.TestLauncherProvider;
 
 import org.junit.Before;
 import org.junit.Rule;

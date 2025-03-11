@@ -13,12 +13,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.android.launcher3.uioverrides;
+package com.android.launcher4.uioverrides;
 
-import static com.android.launcher3.LauncherAnimUtils.OVERVIEW_TRANSITION_MS;
+import static com.android.launcher4.LauncherAnimUtils.OVERVIEW_TRANSITION_MS;
 
-import com.android.launcher3.LauncherState;
-import com.android.launcher3.userevent.nano.LauncherLogProto.ContainerType;
+import com.android.launcher4.LauncherState;
+import com.android.launcher4.userevent.nano.LauncherLogProto.ContainerType;
 
 /**
  * Definition for overview state

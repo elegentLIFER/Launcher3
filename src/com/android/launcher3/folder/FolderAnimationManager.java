@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.folder;
+package com.android.launcher4.folder;
 
-import static com.android.launcher3.BubbleTextView.TEXT_ALPHA_PROPERTY;
-import static com.android.launcher3.LauncherAnimUtils.SCALE_PROPERTY;
-import static com.android.launcher3.folder.ClippedFolderIconLayoutRule.MAX_NUM_ITEMS_IN_PREVIEW;
+import static com.android.launcher4.BubbleTextView.TEXT_ALPHA_PROPERTY;
+import static com.android.launcher4.LauncherAnimUtils.SCALE_PROPERTY;
+import static com.android.launcher4.folder.ClippedFolderIconLayoutRule.MAX_NUM_ITEMS_IN_PREVIEW;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -35,17 +35,17 @@ import android.util.Property;
 import android.view.View;
 import android.view.animation.AnimationUtils;
 
-import com.android.launcher3.BubbleTextView;
-import com.android.launcher3.CellLayout;
-import com.android.launcher3.Launcher;
-import com.android.launcher3.LauncherAnimUtils;
-import com.android.launcher3.R;
-import com.android.launcher3.ShortcutAndWidgetContainer;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.anim.PropertyResetListener;
-import com.android.launcher3.anim.RoundedRectRevealOutlineProvider;
-import com.android.launcher3.dragndrop.DragLayer;
-import com.android.launcher3.util.Themes;
+import com.android.launcher4.BubbleTextView;
+import com.android.launcher4.CellLayout;
+import com.android.launcher4.Launcher;
+import com.android.launcher4.LauncherAnimUtils;
+import com.android.launcher4.R;
+import com.android.launcher4.ShortcutAndWidgetContainer;
+import com.android.launcher4.Utilities;
+import com.android.launcher4.anim.PropertyResetListener;
+import com.android.launcher4.anim.RoundedRectRevealOutlineProvider;
+import com.android.launcher4.dragndrop.DragLayer;
+import com.android.launcher4.util.Themes;
 
 import java.util.List;
 

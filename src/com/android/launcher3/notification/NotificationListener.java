@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.notification;
+package com.android.launcher4.notification;
 
-import static com.android.launcher3.SettingsActivity.NOTIFICATION_BADGING;
+import static com.android.launcher4.SettingsActivity.NOTIFICATION_BADGING;
 
 import android.annotation.TargetApi;
 import android.app.Notification;
@@ -33,9 +33,9 @@ import android.util.ArraySet;
 import android.util.Log;
 import android.util.Pair;
 
-import com.android.launcher3.LauncherModel;
-import com.android.launcher3.util.PackageUserKey;
-import com.android.launcher3.util.SettingsObserver;
+import com.android.launcher4.LauncherModel;
+import com.android.launcher4.util.PackageUserKey;
+import com.android.launcher4.util.SettingsObserver;
 
 import java.util.ArrayList;
 import java.util.Arrays;

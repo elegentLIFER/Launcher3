@@ -13,19 +13,19 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.android.launcher3.allapps;
+package com.android.launcher4.allapps;
 
 import android.content.Context;
 import android.content.pm.PackageManager;
 
-import com.android.launcher3.AppInfo;
-import com.android.launcher3.Launcher;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.compat.AlphabeticIndexCompat;
-import com.android.launcher3.shortcuts.DeepShortcutManager;
-import com.android.launcher3.util.ComponentKey;
-import com.android.launcher3.util.ItemInfoMatcher;
-import com.android.launcher3.util.LabelComparator;
+import com.android.launcher4.AppInfo;
+import com.android.launcher4.Launcher;
+import com.android.launcher4.Utilities;
+import com.android.launcher4.compat.AlphabeticIndexCompat;
+import com.android.launcher4.shortcuts.DeepShortcutManager;
+import com.android.launcher4.util.ComponentKey;
+import com.android.launcher4.util.ItemInfoMatcher;
+import com.android.launcher4.util.LabelComparator;
 
 import java.util.ArrayList;
 import java.util.Collections;

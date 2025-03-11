@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3;
+package com.android.launcher4;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -46,21 +46,21 @@ import android.view.ViewDebug;
 import android.view.ViewGroup;
 import android.view.accessibility.AccessibilityEvent;
 
-import com.android.launcher3.LauncherSettings.Favorites;
-import com.android.launcher3.accessibility.DragAndDropAccessibilityDelegate;
-import com.android.launcher3.accessibility.FolderAccessibilityHelper;
-import com.android.launcher3.accessibility.WorkspaceAccessibilityHelper;
-import com.android.launcher3.anim.Interpolators;
-import com.android.launcher3.anim.PropertyListBuilder;
-import com.android.launcher3.config.FeatureFlags;
-import com.android.launcher3.folder.PreviewBackground;
-import com.android.launcher3.graphics.DragPreviewProvider;
-import com.android.launcher3.util.CellAndSpan;
-import com.android.launcher3.util.GridOccupancy;
-import com.android.launcher3.util.ParcelableSparseArray;
-import com.android.launcher3.util.Themes;
-import com.android.launcher3.util.Thunk;
-import com.android.launcher3.widget.LauncherAppWidgetHostView;
+import com.android.launcher4.LauncherSettings.Favorites;
+import com.android.launcher4.accessibility.DragAndDropAccessibilityDelegate;
+import com.android.launcher4.accessibility.FolderAccessibilityHelper;
+import com.android.launcher4.accessibility.WorkspaceAccessibilityHelper;
+import com.android.launcher4.anim.Interpolators;
+import com.android.launcher4.anim.PropertyListBuilder;
+import com.android.launcher4.config.FeatureFlags;
+import com.android.launcher4.folder.PreviewBackground;
+import com.android.launcher4.graphics.DragPreviewProvider;
+import com.android.launcher4.util.CellAndSpan;
+import com.android.launcher4.util.GridOccupancy;
+import com.android.launcher4.util.ParcelableSparseArray;
+import com.android.launcher4.util.Themes;
+import com.android.launcher4.util.Thunk;
+import com.android.launcher4.widget.LauncherAppWidgetHostView;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;

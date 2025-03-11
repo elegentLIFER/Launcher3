@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3;
+package com.android.launcher4;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
@@ -23,7 +23,7 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.android.launcher3.views.RecyclerViewFastScroller;
+import com.android.launcher4.views.RecyclerViewFastScroller;
 
 
 /**

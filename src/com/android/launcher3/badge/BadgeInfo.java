@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.badge;
+package com.android.launcher4.badge;
 
-import com.android.launcher3.notification.NotificationInfo;
-import com.android.launcher3.notification.NotificationKeyData;
-import com.android.launcher3.util.PackageUserKey;
+import com.android.launcher4.notification.NotificationInfo;
+import com.android.launcher4.notification.NotificationKeyData;
+import com.android.launcher4.util.PackageUserKey;
 
 import java.util.ArrayList;
 import java.util.List;

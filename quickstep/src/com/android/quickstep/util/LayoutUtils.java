@@ -23,8 +23,8 @@ import android.graphics.Rect;
 import android.support.annotation.AnyThread;
 import android.support.annotation.IntDef;
 
-import com.android.launcher3.DeviceProfile;
-import com.android.launcher3.R;
+import com.android.launcher4.DeviceProfile;
+import com.android.launcher4.R;
 
 import java.lang.annotation.Retention;
 

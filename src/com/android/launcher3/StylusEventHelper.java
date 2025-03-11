@@ -1,4 +1,4 @@
-package com.android.launcher3;
+package com.android.launcher4;
 
 import android.view.MotionEvent;
 import android.view.View;

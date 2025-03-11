@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.graphics;
+package com.android.launcher4.graphics;
 
 import android.annotation.TargetApi;
 import android.content.res.Resources;
@@ -31,8 +31,8 @@ import android.graphics.drawable.Drawable;
 import android.os.Build;
 import android.util.AttributeSet;
 
-import com.android.launcher3.R;
-import com.android.launcher3.Utilities;
+import com.android.launcher4.R;
+import com.android.launcher4.Utilities;
 
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;

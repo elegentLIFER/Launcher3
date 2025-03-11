@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.folder;
+package com.android.launcher4.folder;
 
-import static com.android.launcher3.folder.ClippedFolderIconLayoutRule.MAX_NUM_ITEMS_IN_PREVIEW;
-import static com.android.launcher3.folder.PreviewItemManager.INITIAL_ITEM_ANIMATION_DURATION;
+import static com.android.launcher4.folder.ClippedFolderIconLayoutRule.MAX_NUM_ITEMS_IN_PREVIEW;
+import static com.android.launcher4.folder.PreviewItemManager.INITIAL_ITEM_ANIMATION_DURATION;
 
 import android.animation.Animator;
 import android.animation.ObjectAnimator;
@@ -38,34 +38,34 @@ import android.view.ViewConfiguration;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
 
-import com.android.launcher3.Alarm;
-import com.android.launcher3.AppInfo;
-import com.android.launcher3.BubbleTextView;
-import com.android.launcher3.CellLayout;
-import com.android.launcher3.CheckLongPressHelper;
-import com.android.launcher3.DeviceProfile;
-import com.android.launcher3.DropTarget.DragObject;
-import com.android.launcher3.FolderInfo;
-import com.android.launcher3.FolderInfo.FolderListener;
-import com.android.launcher3.ItemInfo;
-import com.android.launcher3.Launcher;
-import com.android.launcher3.LauncherSettings;
-import com.android.launcher3.OnAlarmListener;
-import com.android.launcher3.R;
-import com.android.launcher3.ShortcutInfo;
-import com.android.launcher3.SimpleOnStylusPressListener;
-import com.android.launcher3.StylusEventHelper;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.Workspace;
-import com.android.launcher3.anim.Interpolators;
-import com.android.launcher3.badge.BadgeRenderer;
-import com.android.launcher3.badge.FolderBadgeInfo;
-import com.android.launcher3.dragndrop.BaseItemDragListener;
-import com.android.launcher3.dragndrop.DragLayer;
-import com.android.launcher3.dragndrop.DragView;
-import com.android.launcher3.touch.ItemClickHandler;
-import com.android.launcher3.util.Thunk;
-import com.android.launcher3.widget.PendingAddShortcutInfo;
+import com.android.launcher4.Alarm;
+import com.android.launcher4.AppInfo;
+import com.android.launcher4.BubbleTextView;
+import com.android.launcher4.CellLayout;
+import com.android.launcher4.CheckLongPressHelper;
+import com.android.launcher4.DeviceProfile;
+import com.android.launcher4.DropTarget.DragObject;
+import com.android.launcher4.FolderInfo;
+import com.android.launcher4.FolderInfo.FolderListener;
+import com.android.launcher4.ItemInfo;
+import com.android.launcher4.Launcher;
+import com.android.launcher4.LauncherSettings;
+import com.android.launcher4.OnAlarmListener;
+import com.android.launcher4.R;
+import com.android.launcher4.ShortcutInfo;
+import com.android.launcher4.SimpleOnStylusPressListener;
+import com.android.launcher4.StylusEventHelper;
+import com.android.launcher4.Utilities;
+import com.android.launcher4.Workspace;
+import com.android.launcher4.anim.Interpolators;
+import com.android.launcher4.badge.BadgeRenderer;
+import com.android.launcher4.badge.FolderBadgeInfo;
+import com.android.launcher4.dragndrop.BaseItemDragListener;
+import com.android.launcher4.dragndrop.DragLayer;
+import com.android.launcher4.dragndrop.DragView;
+import com.android.launcher4.touch.ItemClickHandler;
+import com.android.launcher4.util.Thunk;
+import com.android.launcher4.widget.PendingAddShortcutInfo;
 
 import java.util.ArrayList;
 import java.util.List;
